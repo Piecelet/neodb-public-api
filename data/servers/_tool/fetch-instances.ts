@@ -334,7 +334,7 @@ function determineRegion(domain: string): string {
 async function main() {
   try {
     // Read server list
-    const serverListPath = join(process.cwd(), 'data', 'server', '_source', 'servers.txt');
+    const serverListPath = join(process.cwd(), 'data', 'servers', '_source', 'servers.txt');
     const serverList = readFileSync(serverListPath, 'utf-8')
       .split('\n')
       .map(line => line.trim())
@@ -401,7 +401,7 @@ async function main() {
     const allResults = [...successfulResults, ...failedResults];
 
     // Write results to server.json
-    const outputPath = join(process.cwd(), 'data', 'server', 'servers.json');
+    const outputPath = join(process.cwd(), 'data', 'servers', 'servers.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
 
     console.log(`\n🎉 Successfully processed ${allResults.length}/${serverList.length} servers`);

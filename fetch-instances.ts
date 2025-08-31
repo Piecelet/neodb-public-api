@@ -275,6 +275,17 @@ function capitalizePart(part: string): string {
 }
 
 /**
+ * Capitalize first letter of description only
+ */
+function capitalizeDescription(description: string): string {
+  if (!description || description.length === 0) {
+    return description;
+  }
+  
+  return description.charAt(0).toUpperCase() + description.slice(1);
+}
+
+/**
  * Create placeholder ServerInfo for failed servers
  */
 function createPlaceholderServerInfo(domain: string): ServerInfo {
@@ -356,6 +367,9 @@ async function main() {
           description = await fetchHomepageDescription(domain);
         }
         
+        // Capitalize first letter of description
+        description = capitalizeDescription(description);
+        
         // Create a modified instance with the potentially updated description
         const enhancedInstanceData = {
           ...instanceData,
@@ -368,7 +382,8 @@ async function main() {
       } else {
         // For failed servers, try to get description from homepage as well
         console.log(`  API failed, attempting to fetch description from homepage...`);
-        const homepageDescription = await fetchHomepageDescription(domain);
+        let homepageDescription = await fetchHomepageDescription(domain);
+        homepageDescription = capitalizeDescription(homepageDescription);
         const placeholderInfo = createPlaceholderServerInfo(domain);
         placeholderInfo.description = homepageDescription;
         failedResults.push(placeholderInfo);
@@ -433,5 +448,6 @@ export {
   makeAbsoluteUrl, 
   createPlaceholderServerInfo, 
   generateTitleFromDomain, 
-  capitalizePart 
+  capitalizePart,
+  capitalizeDescription
 };

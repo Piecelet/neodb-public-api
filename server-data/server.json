@@ -1,0 +1,116 @@
+[
+  {
+    "domain": "neodb.social",
+    "version": "neodb/0.12.1.1-cccec03-744707a-20250827205102",
+    "description": "",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
+    "blurhash": "",
+    "total_users": 23749,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general"
+  },
+  {
+    "domain": "eggplant.place",
+    "version": "neodb/main-cccec03-f54ce45-20250829201220",
+    "description": "",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
+    "blurhash": "",
+    "total_users": 464,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general"
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "neodb/0.11.8.0",
+    "description": "",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 103,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general"
+  },
+  {
+    "domain": "minreol.dk",
+    "version": "neodb/dev",
+    "description": "",
+    "languages": [
+      "en"
+    ],
+    "region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 83,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general"
+  },
+  {
+    "domain": "neodb.kevga.de",
+    "version": "neodb/0.11.8.3",
+    "description": "",
+    "languages": [
+      "en"
+    ],
+    "region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 23,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general"
+  },
+  {
+    "domain": "db.casually.cat",
+    "version": "Unknown",
+    "description": "",
+    "languages": [
+      "Unknown"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "Unknown"
+    ],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "Unknown",
+    "category": "Unknown"
+  }
+]

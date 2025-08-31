@@ -81,39 +81,36 @@ async function fetchHomepageDescription(domain: string): Promise<string> {
  * Extract meta description from HTML content
  */
 function extractMetaDescription(html: string): string {
-  // Look for meta description tag
-  const metaDescRegex = /<meta\s+name=["']description["']\s+content=["']([^"']*?)["']/i;
-  const metaDescMatch = html.match(metaDescRegex);
+  // Remove newlines and extra spaces from HTML for easier regex matching
+  const cleanHtml = html.replace(/\s+/g, ' ');
   
-  if (metaDescMatch && metaDescMatch[1]) {
-    return metaDescMatch[1].trim();
+  // Look for meta tags that contain either name="description" or property="og:description"
+  // This pattern is more flexible and handles various attribute orders and combinations
+  const metaTagRegex = /<meta\s+[^>]*(?:name=["']description["']|property=["']og:description["'])[^>]*content=["']([^"']*?)["'][^>]*>/gi;
+  
+  let match;
+  const results: string[] = [];
+  
+  // Find all matching meta tags
+  while ((match = metaTagRegex.exec(cleanHtml)) !== null) {
+    const content = match[1];
+    if (content && content.trim()) {
+      results.push(content.trim());
+    }
   }
   
-  // Look for Open Graph description
-  const ogDescRegex = /<meta\s+property=["']og:description["']\s+content=["']([^"']*?)["']/i;
-  const ogDescMatch = html.match(ogDescRegex);
+  // Also try reversed pattern (content comes before name/property)
+  const reversedMetaTagRegex = /<meta\s+[^>]*content=["']([^"']*?)["'][^>]*(?:name=["']description["']|property=["']og:description["'])[^>]*>/gi;
   
-  if (ogDescMatch && ogDescMatch[1]) {
-    return ogDescMatch[1].trim();
+  while ((match = reversedMetaTagRegex.exec(cleanHtml)) !== null) {
+    const content = match[1];
+    if (content && content.trim()) {
+      results.push(content.trim());
+    }
   }
   
-  // Look for reversed attribute order (content first)
-  const metaDescRegex2 = /<meta\s+content=["']([^"']*?)["']\s+name=["']description["']/i;
-  const metaDescMatch2 = html.match(metaDescRegex2);
-  
-  if (metaDescMatch2 && metaDescMatch2[1]) {
-    return metaDescMatch2[1].trim();
-  }
-  
-  // Look for reversed Open Graph format
-  const ogDescRegex2 = /<meta\s+content=["']([^"']*?)["']\s+property=["']og:description["']/i;
-  const ogDescMatch2 = html.match(ogDescRegex2);
-  
-  if (ogDescMatch2 && ogDescMatch2[1]) {
-    return ogDescMatch2[1].trim();
-  }
-  
-  return '';
+  // Return the first non-empty result
+  return results.length > 0 ? results[0] : '';
 }
 
 /**
@@ -258,22 +255,10 @@ function generateTitleFromDomain(domain: string): string {
 }
 
 /**
- * Capitalize a domain part with special DB handling
+ * Capitalize a domain part
  */
 function capitalizePart(part: string): string {
-  // Handle special case: if the part is exactly "db" or ends with "db"
-  if (part.toLowerCase() === 'db') {
-    return 'DB';
-  }
-  
-  // Check if ends with "db"
-  if (part.toLowerCase().endsWith('db')) {
-    const prefix = part.slice(0, -2);
-    const capitalizedPrefix = prefix.charAt(0).toUpperCase() + prefix.slice(1).toLowerCase();
-    return capitalizedPrefix + 'DB';
-  }
-  
-  // Regular capitalization
+  // Regular capitalization - first letter uppercase, rest lowercase
   return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
 }
 

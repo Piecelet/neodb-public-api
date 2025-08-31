@@ -2,7 +2,7 @@
   {
     "domain": "neodb.social",
     "version": "neodb/0.12.1.1-cccec03-744707a-20250827205102",
-    "description": "",
+    "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
     ],
@@ -22,7 +22,7 @@
   {
     "domain": "eggplant.place",
     "version": "neodb/main-cccec03-f54ce45-20250829201220",
-    "description": "",
+    "description": "reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -42,7 +42,7 @@
   {
     "domain": "reviewdb.app",
     "version": "neodb/0.11.8.0",
-    "description": "",
+    "description": "reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -62,7 +62,7 @@
   {
     "domain": "minreol.dk",
     "version": "neodb/dev",
-    "description": "",
+    "description": "reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -82,7 +82,7 @@
   {
     "domain": "neodb.kevga.de",
     "version": "neodb/0.11.8.3",
-    "description": "",
+    "description": "reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],

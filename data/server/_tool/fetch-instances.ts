@@ -2,7 +2,7 @@
 
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
-import type { Instance } from './server-data/Instance';
+import type { Instance } from './Instance';
 
 /**
  * Schema type for the output JSON file
@@ -334,7 +334,7 @@ function determineRegion(domain: string): string {
 async function main() {
   try {
     // Read server list
-    const serverListPath = join(process.cwd(), 'server-data', 'server.txt');
+    const serverListPath = join(process.cwd(), 'data', 'server', '_source', 'server.txt');
     const serverList = readFileSync(serverListPath, 'utf-8')
       .split('\n')
       .map(line => line.trim())
@@ -401,7 +401,7 @@ async function main() {
     const allResults = [...successfulResults, ...failedResults];
 
     // Write results to server.json
-    const outputPath = join(process.cwd(), 'server-data', 'server.json');
+    const outputPath = join(process.cwd(), 'data', 'server', 'server.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
 
     console.log(`\n🎉 Successfully processed ${allResults.length}/${serverList.length} servers`);

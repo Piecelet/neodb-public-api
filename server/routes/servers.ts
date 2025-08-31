@@ -8,11 +8,15 @@ export default eventHandler((event) => {
     const serversPath = join(process.cwd(), "data", "servers", "servers.json")
     const serversContent = readFileSync(serversPath, "utf-8")
     
+    // Parse and compress JSON (remove unnecessary whitespace)
+    const serversData = JSON.parse(serversContent)
+    const compressedJson = JSON.stringify(serversData)
+    
     // Set the content type to application/json
     event.node.res.setHeader("Content-Type", "application/json")
     
-    // Return the JSON content
-    return serversContent
+    // Return the compressed JSON content
+    return compressedJson
   } catch (error) {
     throw createError({
       statusCode: 500,

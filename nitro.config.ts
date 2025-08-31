@@ -7,5 +7,19 @@ export default defineNitroConfig({
   cloudflare: {
     deployConfig: true,
     nodeCompat: true
-  }
+  },
+  // Enable JSON imports
+  rollupConfig: {
+    external: [],
+    output: {
+      format: "esm"
+    }
+  },
+  // Include data files in the bundle
+  publicAssets: [
+    {
+      dir: "data",
+      maxAge: 60 * 60 * 24 * 7 // 7 days
+    }
+  ]
 })

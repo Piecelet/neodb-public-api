@@ -4,7 +4,7 @@
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev",
-    "fetch-instances": "npx tsx fetch-instances.ts"
+    "fetch-instances": "npx tsx ./data/server/_tool/fetch-instances.ts"
   },
   "devDependencies": {
     "h3": "^1.15.4",

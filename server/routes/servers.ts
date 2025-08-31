@@ -3,9 +3,9 @@ import { eventHandler, setHeader } from "h3"
 import serversData from "../../data/servers/servers.json"
 
 export default eventHandler((event) => {
-  // Set the content type to application/json
-  setHeader(event, "Content-Type", "application/json")
+  // Set proper content type with UTF-8 charset for Chinese characters
+  setHeader(event, "Content-Type", "application/json; charset=utf-8")
   
-  // Return the compressed JSON content
-  return JSON.stringify(serversData)
+  // Return the servers data directly
+  return serversData
 })

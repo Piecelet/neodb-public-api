@@ -3,9 +3,9 @@ import { eventHandler, setHeader } from "h3"
 import schemaData from "../../../data/servers/schema.json"
 
 export default eventHandler((event) => {
-  // Set the content type to application/json
-  setHeader(event, "Content-Type", "application/json")
+  // Set proper content type with UTF-8 charset
+  setHeader(event, "Content-Type", "application/json; charset=utf-8")
   
-  // Return the compressed JSON content
-  return JSON.stringify(schemaData)
+  // Return the schema data
+  return schemaData
 })

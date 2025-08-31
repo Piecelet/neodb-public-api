@@ -64,6 +64,7 @@ npx tsx fetch-instances.ts
 - **智能标题生成**: 从域名自动生成友好的显示标题
 - **缩略图路径修复**: 自动将相对路径转换为绝对URL
 - **失败服务器占位**: 为失败的服务器创建占位记录并置底排序
+- **智能描述获取**: 当 API 返回空描述时，自动从首页提取 meta description
 
 ### 标题生成算法
 
@@ -84,6 +85,30 @@ npx tsx fetch-instances.ts
 - `reviewdb.app` → `ReviewDB`
 - `db.casually.cat` → `Casually DB` ✅
 - `neodb.kevga.de` → `Kevga NeoDB`
+
+### 智能描述获取
+
+当 Mastodon API 返回的 `description` 字段为空时，脚本会自动访问服务器首页并尝试提取描述信息：
+
+1. **访问首页**：使用 `https://domain/` 访问服务器首页
+2. **允许重定向**：自动跟随 HTTP 重定向
+3. **提取 Meta 标签**：支持多种格式的 meta 描述标签：
+   - `<meta name="description" content="...">`
+   - `<meta property="og:description" content="...">`
+   - `<meta content="..." name="description">` (反向属性顺序)
+   - `<meta content="..." property="og:description">` (反向 OG 格式)
+
+4. **错误处理**：如果无法获取首页或未找到描述标签，将保持描述为空
+
+#### 处理流程
+
+```
+API description 存在？
+├─ 是 → 使用 API description
+└─ 否 → 尝试从首页获取
+    ├─ 成功 → 使用首页 meta description  
+    └─ 失败 → 保持空描述
+```
 
 ## 运行示例
 

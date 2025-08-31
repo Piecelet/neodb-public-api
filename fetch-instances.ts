@@ -38,6 +38,85 @@ function extractDomain(url: string): string {
 }
 
 /**
+ * Fetch meta description from homepage
+ */
+async function fetchHomepageDescription(domain: string): Promise<string> {
+  try {
+    const homeUrl = `https://${domain}/`;
+    console.log(`  Fetching homepage description: ${homeUrl}`);
+    
+    const response = await fetch(homeUrl, {
+      headers: {
+        'User-Agent': 'NeoDB-Instance-Fetcher/1.0',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      },
+      // Allow redirects and set timeout
+      redirect: 'follow',
+      signal: AbortSignal.timeout(10000), // 10 seconds timeout
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const html = await response.text();
+    
+    // Extract meta description or og:description
+    const description = extractMetaDescription(html);
+    
+    if (description) {
+      console.log(`  ✓ Found description from homepage: "${description.substring(0, 50)}..."`);
+      return description;
+    } else {
+      console.log(`  ✗ No description found in homepage meta tags`);
+      return '';
+    }
+  } catch (error) {
+    console.warn(`  ✗ Failed to fetch homepage description for ${domain}:`, error);
+    return '';
+  }
+}
+
+/**
+ * Extract meta description from HTML content
+ */
+function extractMetaDescription(html: string): string {
+  // Look for meta description tag
+  const metaDescRegex = /<meta\s+name=["']description["']\s+content=["']([^"']*?)["']/i;
+  const metaDescMatch = html.match(metaDescRegex);
+  
+  if (metaDescMatch && metaDescMatch[1]) {
+    return metaDescMatch[1].trim();
+  }
+  
+  // Look for Open Graph description
+  const ogDescRegex = /<meta\s+property=["']og:description["']\s+content=["']([^"']*?)["']/i;
+  const ogDescMatch = html.match(ogDescRegex);
+  
+  if (ogDescMatch && ogDescMatch[1]) {
+    return ogDescMatch[1].trim();
+  }
+  
+  // Look for reversed attribute order (content first)
+  const metaDescRegex2 = /<meta\s+content=["']([^"']*?)["']\s+name=["']description["']/i;
+  const metaDescMatch2 = html.match(metaDescRegex2);
+  
+  if (metaDescMatch2 && metaDescMatch2[1]) {
+    return metaDescMatch2[1].trim();
+  }
+  
+  // Look for reversed Open Graph format
+  const ogDescRegex2 = /<meta\s+content=["']([^"']*?)["']\s+property=["']og:description["']/i;
+  const ogDescMatch2 = html.match(ogDescRegex2);
+  
+  if (ogDescMatch2 && ogDescMatch2[1]) {
+    return ogDescMatch2[1].trim();
+  }
+  
+  return '';
+}
+
+/**
  * Fetch instance information from Mastodon API
  */
 async function fetchInstanceInfo(domain: string): Promise<Instance | null> {
@@ -273,12 +352,28 @@ async function main() {
       const instanceData = await fetchInstanceInfo(domain);
       
       if (instanceData) {
-        const serverInfo = mapInstanceToServerInfo(instanceData, domain);
+        // Check if description is empty and try to fetch from homepage
+        let description = instanceData.description || '';
+        if (!description.trim()) {
+          console.log(`  API description is empty, fetching from homepage...`);
+          description = await fetchHomepageDescription(domain);
+        }
+        
+        // Create a modified instance with the potentially updated description
+        const enhancedInstanceData = {
+          ...instanceData,
+          description
+        };
+        
+        const serverInfo = mapInstanceToServerInfo(enhancedInstanceData, domain);
         successfulResults.push(serverInfo);
         console.log(`✓ Processed ${domain} successfully`);
       } else {
-        // Create placeholder for failed server
+        // For failed servers, try to get description from homepage as well
+        console.log(`  API failed, attempting to fetch description from homepage...`);
+        const homepageDescription = await fetchHomepageDescription(domain);
         const placeholderInfo = createPlaceholderServerInfo(domain);
+        placeholderInfo.description = homepageDescription;
         failedResults.push(placeholderInfo);
         console.warn(`✗ Created placeholder for ${domain} due to errors`);
       }
@@ -335,6 +430,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 export { 
   main, 
   fetchInstanceInfo, 
+  fetchHomepageDescription,
+  extractMetaDescription,
   mapInstanceToServerInfo, 
   makeAbsoluteUrl, 
   createPlaceholderServerInfo, 

@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 23749,
+    "total_users": 23750,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -102,6 +102,7 @@
   {
     "domain": "db.casually.cat",
     "version": "Unknown",
+    "title": "Casually DB",
     "description": "",
     "languages": [
       "Unknown"
@@ -116,7 +117,6 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "Unknown",
-    "category": "Unknown",
-    "title": "Casually DB"
+    "category": "Unknown"
   }
 ]

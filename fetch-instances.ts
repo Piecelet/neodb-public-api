@@ -255,10 +255,22 @@ function generateTitleFromDomain(domain: string): string {
 }
 
 /**
- * Capitalize a domain part
+ * Capitalize a domain part with special DB handling
  */
 function capitalizePart(part: string): string {
-  // Regular capitalization - first letter uppercase, rest lowercase
+  // Handle special case: if the part is exactly "db" or ends with "db"
+  if (part.toLowerCase() === 'db') {
+    return 'DB';
+  }
+  
+  // Check if ends with "db"
+  if (part.toLowerCase().endsWith('db')) {
+    const prefix = part.slice(0, -2);
+    const capitalizedPrefix = prefix.charAt(0).toUpperCase() + prefix.slice(1).toLowerCase();
+    return capitalizedPrefix + 'DB';
+  }
+  
+  // Regular capitalization
   return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
 }
 

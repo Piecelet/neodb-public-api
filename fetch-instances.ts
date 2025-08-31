@@ -10,6 +10,7 @@ import type { Instance } from './server-data/Instance';
 interface ServerInfo {
   domain: string;
   version: string;
+  title: string;
   description: string;
   languages: string[];
   region: string;
@@ -21,7 +22,6 @@ interface ServerInfo {
   approval_required: boolean;
   language: string;
   category: string;
-  title: string;
 }
 
 /**
@@ -168,7 +168,7 @@ function generateTitleFromDomain(domain: string): string {
     for (let i = parts.length - 1; i >= 0; i--) {
       const part = parts[i];
       const capitalizedPart = capitalizePart(part);
-      titleParts.unshift(capitalizedPart); // Add to the beginning to maintain order
+      titleParts.push(capitalizedPart); // Add in extraction order (right to left)
     }
     
     return titleParts.join(' ');
@@ -205,6 +205,7 @@ function createPlaceholderServerInfo(domain: string): ServerInfo {
   return {
     domain,
     version: 'Unknown',
+    title: generateTitleFromDomain(domain),
     description: '',
     languages: ['Unknown'],
     region: 'Unknown',
@@ -216,7 +217,6 @@ function createPlaceholderServerInfo(domain: string): ServerInfo {
     approval_required: false,
     language: 'Unknown',
     category: 'Unknown',
-    title: generateTitleFromDomain(domain),
   };
 }
 

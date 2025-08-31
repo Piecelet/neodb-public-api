@@ -9,6 +9,9 @@
       "version": {
         "type": "string"
       },
+      "title": {
+        "type": "string"
+      },
       "description": {
         "type": "string"
       },
@@ -50,9 +53,6 @@
         "type": "string"
       },
       "category": {
-        "type": "string"
-      },
-      "title": {
         "type": "string"
       }
     },

@@ -38,7 +38,7 @@ npx tsx fetch-instances.ts
 ```json
 {
   "domain": "服务器域名",
-  "version": "服务器版本",
+  "version": "服务器版本", 
   "description": "服务器描述",
   "languages": ["支持的语言列表"],
   "region": "服务器所在地区",
@@ -49,7 +49,8 @@ npx tsx fetch-instances.ts
   "last_week_users": "上周活跃用户数",
   "approval_required": "是否需要审核",
   "language": "主要语言",
-  "category": "主要分类"
+  "category": "主要分类",
+  "title": "从域名生成的标题"
 }
 ```
 
@@ -60,6 +61,29 @@ npx tsx fetch-instances.ts
 - **详细日志**: 提供详细的处理日志和最终统计信息
 - **超时保护**: 每个请求有 10 秒的超时限制
 - **地区检测**: 基于域名 TLD 自动检测服务器地区
+- **智能标题生成**: 从域名自动生成友好的显示标题
+- **缩略图路径修复**: 自动将相对路径转换为绝对URL
+- **失败服务器占位**: 为失败的服务器创建占位记录并置底排序
+
+### 标题生成算法
+
+脚本会根据域名自动生成友好的标题，规则如下：
+
+1. **移除顶级域名后缀**：如 `.social`, `.app`, `.com`, `.dk` 等
+2. **按点分割剩余部分**：从右到左处理每个部分
+3. **特殊 DB 处理**：
+   - 如果部分是 `db`，转换为 `DB`
+   - 如果部分以 `db` 结尾，将 `db` 部分大写为 `DB`
+4. **正常首字母大写**：其他部分进行常规首字母大写
+5. **空格连接**：用空格连接所有部分
+
+#### 示例
+
+- `neodb.social` → `NeoDB`
+- `eggplant.place` → `Eggplant` 
+- `reviewdb.app` → `ReviewDB`
+- `db.casually.cat` → `Casually DB` ✅
+- `neodb.kevga.de` → `Kevga NeoDB`
 
 ## 运行示例
 

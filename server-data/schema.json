@@ -51,6 +51,9 @@
       },
       "category": {
         "type": "string"
+      },
+      "title": {
+        "type": "string"
       }
     },
     "required": [
@@ -66,6 +69,7 @@
       "last_week_users",
       "approval_required",
       "language",
-      "category"
+      "category",
+      "title"
     ]
   }

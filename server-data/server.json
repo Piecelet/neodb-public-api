@@ -16,7 +16,8 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
-    "category": "general"
+    "category": "general",
+    "title": "NeoDB"
   },
   {
     "domain": "eggplant.place",
@@ -35,7 +36,8 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
-    "category": "general"
+    "category": "general",
+    "title": "Eggplant"
   },
   {
     "domain": "reviewdb.app",
@@ -54,7 +56,8 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
-    "category": "general"
+    "category": "general",
+    "title": "ReviewDB"
   },
   {
     "domain": "minreol.dk",
@@ -73,7 +76,8 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
-    "category": "general"
+    "category": "general",
+    "title": "Minreol"
   },
   {
     "domain": "neodb.kevga.de",
@@ -92,7 +96,8 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
-    "category": "general"
+    "category": "general",
+    "title": "NeoDB Kevga"
   },
   {
     "domain": "db.casually.cat",
@@ -111,6 +116,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "Unknown",
-    "category": "Unknown"
+    "category": "Unknown",
+    "title": "DB Casually"
   }
 ]

@@ -21,6 +21,7 @@ interface ServerInfo {
   approval_required: boolean;
   language: string;
   category: string;
+  title: string;
 }
 
 /**
@@ -100,6 +101,7 @@ function mapInstanceToServerInfo(instance: Instance, domain: string): ServerInfo
     approval_required: instance.registrations?.approval_required || false,
     language: primaryLanguage,
     category,
+    title: generateTitleFromDomain(domain),
   };
 }
 
@@ -127,6 +129,76 @@ function makeAbsoluteUrl(url: string, domain: string): string {
 }
 
 /**
+ * Generate title from domain name
+ */
+function generateTitleFromDomain(domain: string): string {
+  try {
+    // Known TLDs to remove
+    const tlds = [
+      'com', 'org', 'net', 'edu', 'gov', 'mil', 'int', 'biz', 'info', 'name', 'pro',
+      'museum', 'aero', 'coop', 'jobs', 'mobi', 'travel', 'cat', 'tel', 'post',
+      'social', 'place', 'app', 'dev', 'blog', 'tech', 'digital', 'online', 'website',
+      'site', 'club', 'xyz', 'tk', 'ml', 'ga', 'cf', 'space', 'top', 'work', 'link',
+      // Country codes
+      'dk', 'de', 'fr', 'uk', 'cn', 'jp', 'kr', 'au', 'ca', 'us', 'ru', 'it', 'es'
+    ];
+    
+    // Remove TLD
+    let workingDomain = domain.toLowerCase();
+    for (const tld of tlds) {
+      if (workingDomain.endsWith(`.${tld}`)) {
+        workingDomain = workingDomain.slice(0, -(tld.length + 1));
+        break;
+      }
+    }
+    
+    // If no TLD was removed, try to remove the last part after the last dot
+    if (workingDomain === domain.toLowerCase()) {
+      const lastDotIndex = workingDomain.lastIndexOf('.');
+      if (lastDotIndex > 0) {
+        workingDomain = workingDomain.slice(0, lastDotIndex);
+      }
+    }
+    
+    // Split by dots and process from right to left
+    const parts = workingDomain.split('.').filter(part => part.length > 0);
+    const titleParts: string[] = [];
+    
+    // Process each part from right to left
+    for (let i = parts.length - 1; i >= 0; i--) {
+      const part = parts[i];
+      const capitalizedPart = capitalizePart(part);
+      titleParts.unshift(capitalizedPart); // Add to the beginning to maintain order
+    }
+    
+    return titleParts.join(' ');
+  } catch (error) {
+    console.warn(`Failed to generate title for domain: ${domain}`, error);
+    return domain; // Fallback to domain name
+  }
+}
+
+/**
+ * Capitalize a domain part with special DB handling
+ */
+function capitalizePart(part: string): string {
+  // Handle special case: if the part is exactly "db" or ends with "db"
+  if (part.toLowerCase() === 'db') {
+    return 'DB';
+  }
+  
+  // Check if ends with "db"
+  if (part.toLowerCase().endsWith('db')) {
+    const prefix = part.slice(0, -2);
+    const capitalizedPrefix = prefix.charAt(0).toUpperCase() + prefix.slice(1).toLowerCase();
+    return capitalizedPrefix + 'DB';
+  }
+  
+  // Regular capitalization
+  return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
+}
+
+/**
  * Create placeholder ServerInfo for failed servers
  */
 function createPlaceholderServerInfo(domain: string): ServerInfo {
@@ -144,6 +216,7 @@ function createPlaceholderServerInfo(domain: string): ServerInfo {
     approval_required: false,
     language: 'Unknown',
     category: 'Unknown',
+    title: generateTitleFromDomain(domain),
   };
 }
 
@@ -259,4 +332,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch(console.error);
 }
 
-export { main, fetchInstanceInfo, mapInstanceToServerInfo, makeAbsoluteUrl, createPlaceholderServerInfo };
+export { 
+  main, 
+  fetchInstanceInfo, 
+  mapInstanceToServerInfo, 
+  makeAbsoluteUrl, 
+  createPlaceholderServerInfo, 
+  generateTitleFromDomain, 
+  capitalizePart 
+};

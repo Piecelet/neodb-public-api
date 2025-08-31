@@ -1,0 +1,67 @@
+name: Fetch NeoDB Instances
+
+on:
+  schedule:
+    # 每天 UTC 时间 02:00 运行（北京时间上午 10:00）
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  fetch-instances:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Fetch instance data
+        run: pnpm run fetch-instances
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in server data"
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "🤖 Auto-update NeoDB instance data
+
+          - Updated server information from API
+          - Processed $(date -u +%Y-%m-%d) UTC
+          
+          Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git push
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.git-check.outputs.changes }}" == "true" ]; then
+            echo "✅ Instance data updated and committed"
+          else
+            echo "ℹ️ No changes in instance data"
+          fi

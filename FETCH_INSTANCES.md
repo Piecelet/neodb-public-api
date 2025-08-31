@@ -11,25 +11,34 @@
 
 ## 使用方法
 
-### 运行脚本
+### 自动化运行（推荐）
+
+项目配置了 GitHub Actions，每天 UTC 时间 02:00（北京时间上午 10:00）自动运行：
+
+- **自动触发**: 每日定时执行
+- **手动触发**: 在 GitHub Actions 页面可手动触发
+- **智能提交**: 仅在数据有变化时才提交
+- **详细日志**: 完整的执行过程记录
+
+### 手动运行脚本
 
 ```bash
 # 使用 pnpm
 pnpm run fetch-instances
 
-# 或直接使用 npx tsx
-npx tsx fetch-instances.ts
+# 或直接使用 npx tsx（如果在根目录）
+npx tsx ./data/server/_tool/fetch-instances.ts
 ```
 
 ### 输入文件
 
-- `server-data/server.txt`: 包含 NeoDB 服务器 URL 的文本文件，每行一个 URL
-- `server-data/Instance.ts`: TypeScript 接口定义，描述 Mastodon API 返回的数据结构
-- `server-data/schema.json`: 输出 JSON 文件的 schema 定义
+- `data/server/_source/server.txt`: 包含 NeoDB 服务器 URL 的文本文件，每行一个 URL
+- `data/server/_tool/Instance.ts`: TypeScript 接口定义，描述 Mastodon API 返回的数据结构
+- `data/server/schema.json`: 输出 JSON 文件的 schema 定义
 
 ### 输出文件
 
-- `server-data/server.json`: 生成的静态 JSON 文件，包含所有成功获取的服务器信息
+- `data/server/server.json`: 生成的静态 JSON 文件，包含所有成功获取的服务器信息
 
 ## 输出格式
 
@@ -109,6 +118,30 @@ API description 存在？
     ├─ 成功 → 使用首页 meta description  
     └─ 失败 → 保持空描述
 ```
+
+## GitHub Actions 自动化
+
+项目包含完整的 GitHub Actions 配置 (`.github/workflows/fetch-instances.yml`)：
+
+### 触发条件
+
+- **定时执行**: 每天 UTC 02:00 自动运行
+- **手动触发**: 支持 `workflow_dispatch` 手动执行
+
+### 执行流程
+
+1. **环境配置**: 设置 Node.js 20 + pnpm 10
+2. **依赖安装**: 缓存和安装项目依赖
+3. **数据获取**: 执行 `pnpm run fetch-instances`
+4. **变化检测**: 智能检测是否有数据变化
+5. **自动提交**: 仅在有变化时提交和推送
+
+### 智能特性
+
+- **变化检测**: 避免无意义的空提交
+- **详细日志**: 完整的执行过程记录
+- **错误处理**: 稳定的错误恢复机制
+- **提交信息**: 包含时间戳和变化摘要的规范提交
 
 ## 运行示例
 

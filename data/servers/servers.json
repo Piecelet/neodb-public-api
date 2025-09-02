@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 23758,
+    "total_users": 23771,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -52,7 +52,7 @@
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "total_users": 103,
+    "total_users": 104,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -80,6 +80,26 @@
     "title": "Minreol"
   },
   {
+    "domain": "db.casually.cat",
+    "version": "neodb/0.11.7.3",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 10,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general",
+    "title": "Casually DB"
+  },
+  {
     "domain": "neodb.kevga.de",
     "version": "neodb/0.11.8.3",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -98,25 +118,5 @@
     "language": "en",
     "category": "general",
     "title": "Kevga NeoDB"
-  },
-  {
-    "domain": "db.casually.cat",
-    "version": "Unknown",
-    "title": "Casually DB",
-    "description": "",
-    "languages": [
-      "Unknown"
-    ],
-    "region": "Unknown",
-    "categories": [
-      "Unknown"
-    ],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "Unknown",
-    "category": "Unknown"
   }
 ]

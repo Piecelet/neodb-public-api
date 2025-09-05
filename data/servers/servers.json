@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 23801,
+    "total_users": 23816,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -21,7 +21,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-cccec03-f54ce45-20250829201220",
+    "version": "neodb/main-cccec03-4868bdd-20250904222704",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -52,7 +52,7 @@
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "total_users": 104,
+    "total_users": 105,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",

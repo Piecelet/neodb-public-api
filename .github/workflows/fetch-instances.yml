@@ -1,6 +1,8 @@
 name: Fetch NeoDB Instances
 
 on:
+  push:
+    branches: [ main ]
   schedule:
     # 每天 UTC 时间 02:00 运行（北京时间上午 10:00）
     - cron: '0 2 * * *'
@@ -24,7 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'pnpm'
 
       - name: Install dependencies

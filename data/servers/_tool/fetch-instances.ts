@@ -413,23 +413,28 @@ async function main() {
     const concurrency = Number.parseInt(process.env.CONCURRENCY ?? '6', 10) || 6;
     console.log(`Using concurrency: ${concurrency}`);
 
-    // Process lists concurrently (each list internally concurrent)
-    console.log(`\n== Processing OFFICIAL servers ==`);
-    const officialResults = await processServerList(officialUrls, concurrency);
+    // Build sets of domains and a combined unique list for single-pool fetching
+    const officialDomainsArr = officialUrls.map((u) => extractDomain(u)).filter(Boolean) as string[];
+    const communityDomainsArr = communityUrls.map((u) => extractDomain(u)).filter(Boolean) as string[];
+    const officialDomains = new Set(officialDomainsArr);
+    const communityDomains = new Set(communityDomainsArr);
 
-    console.log(`\n== Processing COMMUNITY servers ==`);
-    const communityResults = await processServerList(communityUrls, concurrency);
+    const combinedDomains = Array.from(new Set<string>([...officialDomains, ...communityDomains]));
+    const combinedUrls = combinedDomains.map((d) => `https://${d}/`);
+
+    console.log(`\n== Processing ALL servers in a single pool ==`);
+    const combinedResults = await processServerList(combinedUrls, concurrency);
+
+    // Split results back into groups
+    const officialResults = combinedResults.filter((s) => officialDomains.has(s.domain));
+    const communityResults = combinedResults.filter((s) => communityDomains.has(s.domain) && !officialDomains.has(s.domain));
 
     // Sort each group by users desc
     const officialSorted = sortByUsersDesc(officialResults);
     const communitySorted = sortByUsersDesc(communityResults);
 
-    // Dedup domains appearing in both groups, preferring official
-    const officialDomains = new Set(officialSorted.map((s) => s.domain));
-    const communityDeduped = communitySorted.filter((s) => !officialDomains.has(s.domain));
-
     // Merge: official first, then community
-    const allResults = [...officialSorted, ...communityDeduped];
+    const allResults = [...officialSorted, ...communitySorted];
 
     // Write results
     const outputPath = join(base, 'servers.json');
@@ -437,9 +442,9 @@ async function main() {
     const outputCommunityPath = join(base, 'servers-community.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
     writeFileSync(outputOfficialPath, JSON.stringify(officialSorted, null, 2), 'utf-8');
-    writeFileSync(outputCommunityPath, JSON.stringify(communityDeduped, null, 2), 'utf-8');
+    writeFileSync(outputCommunityPath, JSON.stringify(communitySorted, null, 2), 'utf-8');
 
-    console.log(`\n🎉 Successfully processed ${allResults.length}/${officialUrls.length + communityUrls.length} servers (after dedup)`);
+    console.log(`\n🎉 Successfully processed ${combinedResults.length}/${combinedUrls.length} servers (unique domains)`);
     console.log(`Results written:`);
     console.log(`- Combined: ${outputPath}`);
     console.log(`- Official: ${outputOfficialPath}`);

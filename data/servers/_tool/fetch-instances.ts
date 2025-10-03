@@ -309,11 +309,24 @@ function determineRegion(domain: string): string {
 function readServerUrls(filePath: string): string[] {
   const raw = readFileSync(filePath, 'utf-8');
   const urls: string[] = [];
+
+  const stripComment = (s: string): string => {
+    const iHash = s.indexOf('#');
+    const iSemi = s.indexOf(';');
+    let cut = -1;
+    if (iHash !== -1) cut = iHash;
+    if (iSemi !== -1) cut = cut === -1 ? iSemi : Math.min(cut, iSemi);
+    return cut === -1 ? s : s.slice(0, cut);
+  };
+
   for (const line of raw.split('\n')) {
-    const s = line.trim();
-    if (!s) continue;
+    const stripped = stripComment(line).trim();
+    if (!stripped) continue;
     // If a line accidentally concatenates multiple URLs, split on each http(s) occurrence
-    const parts = s.split(/(?=https?:\/\/)/g).map((p) => p.trim()).filter(Boolean);
+    const parts = stripped
+      .split(/(?=https?:\/\/)/g)
+      .map((p) => p.trim())
+      .filter(Boolean);
     for (const p of parts) {
       try {
         // Validate URL

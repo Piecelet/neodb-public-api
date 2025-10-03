@@ -18,8 +18,8 @@ async function main() {
 
     console.log(`Found ${officialUrls.length} official servers, ${communityUrls.length} community servers.`);
 
-    // Concurrency from env or default 6
-    const concurrency = Number.parseInt(process.env.CONCURRENCY ?? '6', 10) || 6;
+    // Concurrency from env or default 10
+    const concurrency = Number.parseInt(process.env.CONCURRENCY ?? '10', 10) || 10;
     console.log(`Using concurrency: ${concurrency}`);
 
     // Build sets of domains and a combined unique list for single-pool fetching

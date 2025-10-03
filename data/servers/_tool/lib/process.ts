@@ -6,7 +6,7 @@ import { createPlaceholderServerInfo } from './util'
 
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
-export async function processServerList(urls: string[], concurrency = 6): Promise<ServerInfo[]> {
+export async function processServerList(urls: string[], concurrency = 10): Promise<ServerInfo[]> {
   const results: ServerInfo[] = []
   let index = 0
 

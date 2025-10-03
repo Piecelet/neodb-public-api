@@ -433,10 +433,17 @@ async function main() {
 
     // Write results
     const outputPath = join(base, 'servers.json');
+    const outputOfficialPath = join(base, 'servers-official.json');
+    const outputCommunityPath = join(base, 'servers-community.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
+    writeFileSync(outputOfficialPath, JSON.stringify(officialSorted, null, 2), 'utf-8');
+    writeFileSync(outputCommunityPath, JSON.stringify(communityDeduped, null, 2), 'utf-8');
 
     console.log(`\n🎉 Successfully processed ${allResults.length}/${officialUrls.length + communityUrls.length} servers (after dedup)`);
-    console.log(`Results written to: ${outputPath}`);
+    console.log(`Results written:`);
+    console.log(`- Combined: ${outputPath}`);
+    console.log(`- Official: ${outputOfficialPath}`);
+    console.log(`- Community: ${outputCommunityPath}`);
 
     // Summary
     const totalUsers = allResults.reduce((sum, s) => sum + (s.total_users ?? 0), 0);

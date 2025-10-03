@@ -328,106 +328,130 @@ function determineRegion(domain: string): string {
   return tldToRegion[tld || ''] || 'Unknown';
 }
 
+/** Parse URLs from a text file. Supports multiple URLs on a line. */
+function readServerUrls(filePath: string): string[] {
+  const raw = readFileSync(filePath, 'utf-8');
+  const urls: string[] = [];
+  for (const line of raw.split('\n')) {
+    const s = line.trim();
+    if (!s) continue;
+    // If a line accidentally concatenates multiple URLs, split on each http(s) occurrence
+    const parts = s.split(/(?=https?:\/\/)/g).map((p) => p.trim()).filter(Boolean);
+    for (const p of parts) {
+      try {
+        // Validate URL
+        // eslint-disable-next-line no-new
+        new URL(p);
+        urls.push(p);
+      } catch {
+        console.warn(`Skipping invalid URL segment: ${p}`);
+      }
+    }
+  }
+  return urls;
+}
+
+/** Process a list of server URLs into ServerInfo objects (with placeholders on failure). */
+async function processServerList(urls: string[]): Promise<ServerInfo[]> {
+  const results: ServerInfo[] = [];
+  for (let i = 0; i < urls.length; i++) {
+    const url = urls[i];
+    const domain = extractDomain(url);
+    if (!domain) {
+      console.warn(`Skipping invalid URL: ${url}`);
+      continue;
+    }
+
+    console.log(`\nProcessing ${i + 1}/${urls.length}: ${domain}`);
+    const instanceData = await fetchInstanceInfo(domain);
+
+    if (instanceData) {
+      // Ensure description present, fallback to homepage
+      let description = instanceData.description || '';
+      if (!description.trim()) {
+        console.log(`  API description is empty, fetching from homepage...`);
+        description = await fetchHomepageDescription(domain);
+      }
+      description = capitalizeDescription(description);
+
+      const enhanced = { ...instanceData, description };
+      const info = mapInstanceToServerInfo(enhanced, domain);
+      results.push(info);
+      console.log(`✓ Processed ${domain} successfully`);
+    } else {
+      console.log(`  API failed, attempting to fetch description from homepage...`);
+      let homepageDescription = await fetchHomepageDescription(domain);
+      homepageDescription = capitalizeDescription(homepageDescription);
+      const placeholder = createPlaceholderServerInfo(domain);
+      placeholder.description = homepageDescription;
+      results.push(placeholder);
+      console.warn(`✗ Created placeholder for ${domain} due to errors`);
+    }
+
+    if (i < urls.length - 1) {
+      console.log('Waiting 1 second...');
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+  }
+  return results;
+}
+
+/** Sort servers by total_users desc, tie-break by domain asc. */
+function sortByUsersDesc(list: ServerInfo[]): ServerInfo[] {
+  return [...list].sort((a, b) => {
+    const ua = a.total_users ?? 0;
+    const ub = b.total_users ?? 0;
+    if (ub !== ua) return ub - ua;
+    return a.domain.localeCompare(b.domain);
+  });
+}
+
 /**
- * Main function to process all servers
+ * Main function to process official and community servers separately, sort, then merge.
  */
 async function main() {
   try {
-    // Read server list
-    const serverListPath = join(process.cwd(), 'data', 'servers', '_source', 'servers.txt');
-    const serverList = readFileSync(serverListPath, 'utf-8')
-      .split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0);
+    const base = join(process.cwd(), 'data', 'servers');
+    const officialPath = join(base, '_source', 'servers-official.txt');
+    const communityPath = join(base, '_source', 'servers.txt');
 
-    console.log(`Found ${serverList.length} servers to process...`);
+    const officialUrls = readServerUrls(officialPath);
+    const communityUrls = readServerUrls(communityPath);
 
-    const successfulResults: ServerInfo[] = [];
-    const failedResults: ServerInfo[] = [];
+    console.log(`Found ${officialUrls.length} official servers, ${communityUrls.length} community servers.`);
 
-    // Process each server with rate limiting
-    for (let i = 0; i < serverList.length; i++) {
-      const url = serverList[i];
-      const domain = extractDomain(url);
-      
-      if (!domain) {
-        console.warn(`Skipping invalid URL: ${url}`);
-        continue;
-      }
+    // Process lists
+    console.log(`\n== Processing OFFICIAL servers ==`);
+    const officialResults = await processServerList(officialUrls);
 
-      console.log(`\nProcessing ${i + 1}/${serverList.length}: ${domain}`);
+    console.log(`\n== Processing COMMUNITY servers ==`);
+    const communityResults = await processServerList(communityUrls);
 
-      const instanceData = await fetchInstanceInfo(domain);
-      
-      if (instanceData) {
-        // Check if description is empty and try to fetch from homepage
-        let description = instanceData.description || '';
-        if (!description.trim()) {
-          console.log(`  API description is empty, fetching from homepage...`);
-          description = await fetchHomepageDescription(domain);
-        }
-        
-        // Capitalize first letter of description
-        description = capitalizeDescription(description);
-        
-        // Create a modified instance with the potentially updated description
-        const enhancedInstanceData = {
-          ...instanceData,
-          description
-        };
-        
-        const serverInfo = mapInstanceToServerInfo(enhancedInstanceData, domain);
-        successfulResults.push(serverInfo);
-        console.log(`✓ Processed ${domain} successfully`);
-      } else {
-        // For failed servers, try to get description from homepage as well
-        console.log(`  API failed, attempting to fetch description from homepage...`);
-        let homepageDescription = await fetchHomepageDescription(domain);
-        homepageDescription = capitalizeDescription(homepageDescription);
-        const placeholderInfo = createPlaceholderServerInfo(domain);
-        placeholderInfo.description = homepageDescription;
-        failedResults.push(placeholderInfo);
-        console.warn(`✗ Created placeholder for ${domain} due to errors`);
-      }
+    // Sort each group by users desc
+    const officialSorted = sortByUsersDesc(officialResults);
+    const communitySorted = sortByUsersDesc(communityResults);
 
-      // Rate limiting: wait 1 second between requests to be respectful
-      if (i < serverList.length - 1) {
-        console.log('Waiting 1 second...');
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      }
-    }
+    // Dedup domains appearing in both groups, preferring official
+    const officialDomains = new Set(officialSorted.map((s) => s.domain));
+    const communityDeduped = communitySorted.filter((s) => !officialDomains.has(s.domain));
 
-    // Combine results: successful servers first, failed servers at the bottom
-    const allResults = [...successfulResults, ...failedResults];
+    // Merge: official first, then community
+    const allResults = [...officialSorted, ...communityDeduped];
 
-    // Write results to server.json
-    const outputPath = join(process.cwd(), 'data', 'servers', 'servers.json');
+    // Write results
+    const outputPath = join(base, 'servers.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
 
-    console.log(`\n🎉 Successfully processed ${allResults.length}/${serverList.length} servers`);
+    console.log(`\n🎉 Successfully processed ${allResults.length}/${officialUrls.length + communityUrls.length} servers (after dedup)`);
     console.log(`Results written to: ${outputPath}`);
 
-    // Print summary
+    // Summary
+    const totalUsers = allResults.reduce((sum, s) => sum + (s.total_users ?? 0), 0);
     console.log('\n📊 Summary:');
     console.log(`- Total servers in output: ${allResults.length}`);
-    console.log(`- Successful servers: ${successfulResults.length}`);
-    console.log(`- Failed servers (with placeholders): ${failedResults.length}`);
-    
-    if (successfulResults.length > 0) {
-      const totalUsers = successfulResults.reduce((sum, server) => sum + server.total_users, 0);
-      console.log(`- Total active users across successful servers: ${totalUsers.toLocaleString()}`);
-      
-      const languages = Array.from(new Set(successfulResults.flatMap(s => s.languages).filter(lang => lang !== 'Unknown')));
-      console.log(`- Languages supported: ${languages.join(', ')}`);
-      
-      const regions = Array.from(new Set(successfulResults.map(s => s.region).filter(region => region !== 'Unknown')));
-      console.log(`- Regions: ${regions.join(', ')}`);
-    }
-
-    if (failedResults.length > 0) {
-      console.log(`- Failed server domains: ${failedResults.map(s => s.domain).join(', ')}`);
-    }
-
+    console.log(`- Total active users across all servers: ${totalUsers.toLocaleString()}`);
+    const languages = Array.from(new Set(allResults.flatMap((s) => s.languages).filter((l) => l && l !== 'Unknown')));
+    console.log(`- Languages supported: ${languages.join(', ')}`);
   } catch (error) {
     console.error('❌ Fatal error:', error);
     process.exit(1);

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@hono/swagger-ui':
-        specifier: ^0.4.0
-        version: 0.4.1(hono@4.9.9)
+        specifier: ^0.5.2
+        version: 0.5.2(hono@4.9.9)
       hono:
         specifier: ^4.9.9
         version: 4.9.9
@@ -22,7 +22,7 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       wrangler:
-        specifier: ^4.4.0
+        specifier: ^4.41.0
         version: 4.41.0
 
 packages:
@@ -227,8 +227,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@hono/swagger-ui@0.4.1':
-    resolution: {integrity: sha512-kPaJatHffeYQ3yVkHo878hCqwfapqx54FczJVJ+eRWt8J4biyVVMIdCAJb6MyA8bcnHUoTmUpPc7OJAV1VTg2g==}
+  '@hono/swagger-ui@0.5.2':
+    resolution: {integrity: sha512-7wxLKdb8h7JTdZ+K8DJNE3KXQMIpJejkBTQjrYlUWF28Z1PGOKw6kUykARe5NTfueIN37jbyG/sBYsbzXzG53A==}
     peerDependencies:
       hono: '*'
 
@@ -644,7 +644,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.4':
     optional: true
 
-  '@hono/swagger-ui@0.4.1(hono@4.9.9)':
+  '@hono/swagger-ui@0.5.2(hono@4.9.9)':
     dependencies:
       hono: 4.9.9
 

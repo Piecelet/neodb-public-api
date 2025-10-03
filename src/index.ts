@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import { swaggerUI } from '@hono/swagger-ui'
-import servers from '@/src/routes/servers'
+import servers from '@/src/servers'
 
 const app = new Hono()
 

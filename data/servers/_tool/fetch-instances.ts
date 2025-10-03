@@ -2,8 +2,7 @@
 
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
-import type { Instance } from './Instance';
-import type { ServerInfo } from './ServerInfo';
+import type { Instance, ServerInfo } from './types/';
 
 /**
  * Extract domain from URL

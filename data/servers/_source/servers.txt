@@ -1,3 +1,7 @@
+# Community servers input list
+# Order in this file does not affect output; the final list is sorted by active user count (descending).
+# Use '#' to add notes; everything after '#' on a line is ignored.
+
 https://reviewdb.app/
 https://minreol.dk/
 https://db.casually.cat/

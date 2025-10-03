@@ -3,7 +3,7 @@
   "info": {
     "title": "NeoDB Public API",
     "version": "1.0.0",
-    "description": "Public endpoints for NeoDB instances and schema."
+    "description": "NeoDB Public Information API maintained by Piecelet app, opensourced on https://github.com/Piecelet/neodb-public-api - Public endpoints for NeoDB instances and schema."
   },
   "paths": {
     "/servers": {

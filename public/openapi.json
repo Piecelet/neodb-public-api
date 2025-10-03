@@ -1,0 +1,203 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "NeoDB Public API",
+    "version": "1.1",
+    "description": "NeoDB Public Information API maintained by Piecelet app, opensourced on https://github.com/Piecelet/neodb-public-api - Public endpoints for NeoDB instances and schema."
+  },
+  "paths": {
+    "/servers": {
+      "get": {
+        "summary": "List NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Server" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/official": {
+      "get": {
+        "summary": "List official NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of official server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Server" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/community": {
+      "get": {
+        "summary": "List community NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of community server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Server" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/schema": {
+      "get": {
+        "summary": "Return server instance info schema",
+        "responses": {
+          "200": {
+            "description": "JSON Schema for a server instance object",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "x-json-schema-dialect": "http://json-schema.org/draft-04/schema#"
+                },
+                "example": {
+                  "name": "NeoDB Public Instance Info Schema",
+                  "$schema": "http://json-schema.org/draft-04/schema#",
+                  "type": "object",
+                  "properties": {
+                    "domain": {
+                      "type": "string"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "languages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "region": {
+                      "type": "string"
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "proxied_thumbnail": {
+                      "type": "string"
+                    },
+                    "blurhash": {
+                      "type": "string"
+                    },
+                    "total_users": {
+                      "type": "integer"
+                    },
+                    "last_week_users": {
+                      "type": "integer"
+                    },
+                    "approval_required": {
+                      "type": "boolean"
+                    },
+                    "language": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "domain",
+                    "version",
+                    "description",
+                    "languages",
+                    "region",
+                    "categories",
+                    "proxied_thumbnail",
+                    "blurhash",
+                    "total_users",
+                    "last_week_users",
+                    "approval_required",
+                    "language",
+                    "category",
+                    "title"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Server": {
+        "type": "object",
+        "properties": {
+          "domain": { "type": "string" },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "languages": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "region": { "type": "string" },
+          "categories": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "proxied_thumbnail": { "type": "string" },
+          "blurhash": { "type": "string" },
+          "total_users": { "type": "integer" },
+          "last_week_users": { "type": "integer" },
+          "approval_required": { "type": "boolean" },
+          "language": { "type": "string" },
+          "category": { "type": "string" }
+        },
+        "required": [
+          "domain",
+          "version",
+          "description",
+          "languages",
+          "region",
+          "categories",
+          "proxied_thumbnail",
+          "blurhash",
+          "total_users",
+          "last_week_users",
+          "approval_required",
+          "language",
+          "category",
+          "title"
+        ]
+      }
+    }
+  }
+}

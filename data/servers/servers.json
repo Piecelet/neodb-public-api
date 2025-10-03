@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 24233,
+    "total_users": 24237,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -32,7 +32,7 @@
     ],
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
-    "total_users": 497,
+    "total_users": 499,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -58,6 +58,86 @@
     "language": "en",
     "category": "general",
     "title": "ReviewDB"
+  },
+  {
+    "domain": "minreol.dk",
+    "version": "neodb/dev",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 91,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general",
+    "title": "Minreol"
+  },
+  {
+    "domain": "neodb.kevga.de",
+    "version": "neodb/0.12.2.2-cccec03-6cc8a0e-20250911180011",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 28,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general",
+    "title": "Kevga NeoDB"
+  },
+  {
+    "domain": "db.casually.cat",
+    "version": "neodb/0.11.7.3",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "total_users": 10,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general",
+    "title": "Casually DB"
+  },
+  {
+    "domain": "lib.itinerariummentis.org",
+    "version": "neodb/dev",
+    "description": "Itinerarium in Librarium Mentis",
+    "languages": [
+      "en"
+    ],
+    "region": "Unknown",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://lib.itinerariummentis.org/media/config/2025/3/12/bONLPUrBzHytTZk1i3Poaw7xKQk.png",
+    "blurhash": "",
+    "total_users": 7,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "category": "general",
+    "title": "Itinerariummentis Lib"
   },
   {
     "domain": "log.melonbread.xyz",
@@ -98,85 +178,5 @@
     "language": "en",
     "category": "general",
     "title": "Agnos Neo"
-  },
-  {
-    "domain": "lib.itinerariummentis.org",
-    "version": "neodb/dev",
-    "description": "Itinerarium in Librarium Mentis",
-    "languages": [
-      "en"
-    ],
-    "region": "Unknown",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://lib.itinerariummentis.org/media/config/2025/3/12/bONLPUrBzHytTZk1i3Poaw7xKQk.png",
-    "blurhash": "",
-    "total_users": 7,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "category": "general",
-    "title": "Itinerariummentis Lib"
-  },
-  {
-    "domain": "minreol.dk",
-    "version": "neodb/dev",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "region": "Europe",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "total_users": 91,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "category": "general",
-    "title": "Minreol"
-  },
-  {
-    "domain": "db.casually.cat",
-    "version": "neodb/0.11.7.3",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "region": "Unknown",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "total_users": 10,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "category": "general",
-    "title": "Casually DB"
-  },
-  {
-    "domain": "neodb.kevga.de",
-    "version": "neodb/0.12.2.2-cccec03-6cc8a0e-20250911180011",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "region": "Europe",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "total_users": 28,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "category": "general",
-    "title": "Kevga NeoDB"
   }
 ]

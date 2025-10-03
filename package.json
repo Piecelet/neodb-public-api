@@ -8,10 +8,11 @@
     "fetch-instances": "npx tsx ./data/servers/_tool/fetch-instances.ts"
   },
   "dependencies": {
-    "hono": "^4.9.9",
-    "@hono/swagger-ui": "^0.4.0"
+    "@hono/swagger-ui": "^0.4.0",
+    "hono": "^4.9.9"
   },
   "devDependencies": {
+    "@types/node": "^24.6.2",
     "wrangler": "^4.4.0"
   },
   "packageManager": "pnpm@10.18.0"

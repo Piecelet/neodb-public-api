@@ -16,7 +16,7 @@
               "application/json": {
                 "schema": {
                   "type": "array",
-                  "items": { "type": "object" }
+                  "items": { "$ref": "#/components/schemas/Server" }
                 }
               }
             }
@@ -39,6 +39,50 @@
         }
       }
     }
+  },
+  "components": {
+    "schemas": {
+      "Server": {
+        "type": "object",
+        "properties": {
+          "domain": { "type": "string" },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "languages": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "region": { "type": "string" },
+          "categories": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "proxied_thumbnail": { "type": "string" },
+          "blurhash": { "type": "string" },
+          "total_users": { "type": "integer" },
+          "last_week_users": { "type": "integer" },
+          "approval_required": { "type": "boolean" },
+          "language": { "type": "string" },
+          "category": { "type": "string" }
+        },
+        "required": [
+          "domain",
+          "version",
+          "description",
+          "languages",
+          "region",
+          "categories",
+          "proxied_thumbnail",
+          "blurhash",
+          "total_users",
+          "last_week_users",
+          "approval_required",
+          "language",
+          "category",
+          "title"
+        ]
+      }
+    }
   }
 }
-

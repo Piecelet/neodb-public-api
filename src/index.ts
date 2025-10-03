@@ -1,10 +1,11 @@
 import { Hono } from 'hono'
-import index from '@/src/routes/index'
+import { swaggerUI } from '@hono/swagger-ui'
 import servers from '@/src/routes/servers'
 
 const app = new Hono()
 
-app.route('/', index)
+// Swagger UI at root; spec is served as a static asset by Cloudflare
+app.get('/', swaggerUI({ url: '/openapi.json' }))
 app.route('/servers', servers)
 
 export default app

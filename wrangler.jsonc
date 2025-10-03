@@ -2,7 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "neodb-public-api",
   "main": "src/index.ts",
-  "compatibility_date": "2025-10-03"
+  "compatibility_date": "2025-10-03",
+  "assets": {
+    "directory": "public"
+  }
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],

@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "NeoDB Public API",
+    "version": "1.0.0",
+    "description": "Public endpoints for NeoDB instances and schema."
+  },
+  "paths": {
+    "/servers": {
+      "get": {
+        "summary": "List NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "type": "object" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/schema": {
+      "get": {
+        "summary": "Return server instance info schema",
+        "responses": {
+          "200": {
+            "description": "JSON Schema for a server instance object",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -4,9 +4,15 @@ on:
   push:
     branches: [ main ]
   schedule:
-    # 每天 UTC 时间 02:00 运行（北京时间上午 10:00）
+    # Run daily at 02:00 UTC
     - cron: '0 2 * * *'
-  workflow_dispatch: # 允许手动触发
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Prevent overlapping runs on the same ref
+concurrency:
+  group: fetch-instances-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   fetch-instances:

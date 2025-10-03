@@ -23,10 +23,11 @@ function extractDomain(url: string): string {
  */
 async function fetchHomepageDescription(domain: string): Promise<string> {
   try {
-    const homeUrl = `https://${domain}/`;
-    console.log(`  Fetching homepage description: ${homeUrl}`);
+    const base = new URL(`https://${domain}`);
+    const homeUrl = new URL('/', base);
+    console.log(`  Fetching homepage description: ${homeUrl.toString()}`);
     
-    const response = await fetch(homeUrl, {
+    const response = await fetch(homeUrl.toString(), {
       headers: {
         'User-Agent': 'NeoDB-Instance-Fetcher/1.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -99,10 +100,10 @@ function extractMetaDescription(html: string): string {
  */
 async function fetchInstanceInfo(domain: string): Promise<Instance | null> {
   try {
-    const apiUrl = `https://${domain}/api/v2/instance`;
-    console.log(`Fetching: ${apiUrl}`);
+    const apiUrl = new URL('/api/v2/instance', `https://${domain}`);
+    console.log(`Fetching: ${apiUrl.toString()}`);
     
-    const response = await fetch(apiUrl, {
+    const response = await fetch(apiUrl.toString(), {
       headers: {
         'User-Agent': 'NeoDB-Instance-Fetcher/1.0',
         'Accept': 'application/json',
@@ -165,23 +166,18 @@ function mapInstanceToServerInfo(instance: Instance, domain: string): ServerInfo
 /**
  * Convert relative URL to absolute URL
  */
-function makeAbsoluteUrl(url: string, domain: string): string {
+function makeAbsoluteUrl(input: string, domain: string): string {
   try {
-    // If already absolute URL, return as is
-    if (url.startsWith('http://') || url.startsWith('https://')) {
-      return url;
-    }
-    
-    // If relative URL, prepend domain
-    if (url.startsWith('/')) {
-      return `https://${domain}${url}`;
-    }
-    
-    // If relative path without leading slash
-    return `https://${domain}/${url}`;
+    // If input is already an absolute URL, return its normalized string
+    return new URL(input).toString();
+  } catch {}
+
+  try {
+    const base = new URL(`https://${domain}`);
+    return new URL(input, base).toString();
   } catch (error) {
-    console.warn(`Failed to convert URL for ${domain}: ${url}`, error);
-    return url;
+    console.warn(`Failed to convert URL for ${domain}: ${input}`, error);
+    return input;
   }
 }
 

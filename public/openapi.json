@@ -1,8 +1,8 @@
 {
-  "openapi": "3.0.3",
+  "openapi": "3.1.1",
   "info": {
     "title": "NeoDB Public API",
-    "version": "1.0.0",
+    "version": "1.1",
     "description": "NeoDB Public Information API maintained by Piecelet app, opensourced on https://github.com/Piecelet/neodb-public-api - Public endpoints for NeoDB instances and schema."
   },
   "paths": {
@@ -12,6 +12,42 @@
         "responses": {
           "200": {
             "description": "Array of server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Server" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/official": {
+      "get": {
+        "summary": "List official NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of official server instances",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Server" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/servers/community": {
+      "get": {
+        "summary": "List community NeoDB server instances",
+        "responses": {
+          "200": {
+            "description": "Array of community server instances",
             "content": {
               "application/json": {
                 "schema": {

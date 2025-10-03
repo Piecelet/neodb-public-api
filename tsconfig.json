@@ -5,6 +5,11 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "resolveJsonModule": true,
     "lib": [
       "ESNext"
     ],

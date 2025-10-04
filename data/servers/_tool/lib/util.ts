@@ -12,6 +12,7 @@ export function createPlaceholderServerInfo(domain: string): ServerInfo {
     categories: ['Unknown'],
     proxied_thumbnail: 'https://neodb.internal/placeholder',
     blurhash: '',
+    icon: '',
     total_users: 0,
     last_week_users: 0,
     approval_required: false,
@@ -28,4 +29,3 @@ export function sortByUsersDesc(list: ServerInfo[]): ServerInfo[] {
     return a.domain.localeCompare(b.domain)
   })
 }
-

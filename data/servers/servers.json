@@ -6,13 +6,14 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 24248,
+    "icon": "https://neodb.social/s/img/icon.png",
+    "total_users": 24251,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -26,13 +27,14 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
-    "total_users": 499,
+    "icon": "https://eggplant.place/logo2.png",
+    "total_users": 500,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -46,12 +48,13 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
     "total_users": 109,
     "last_week_users": 0,
     "approval_required": false,
@@ -72,6 +75,7 @@
     ],
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://minreol.dk/icon.png",
     "total_users": 91,
     "last_week_users": 0,
     "approval_required": false,
@@ -92,6 +96,7 @@
     ],
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://neodb.kevga.de/icon.png",
     "total_users": 28,
     "last_week_users": 0,
     "approval_required": false,
@@ -106,12 +111,13 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://db.casually.cat/icon.png",
     "total_users": 10,
     "last_week_users": 0,
     "approval_required": false,
@@ -126,12 +132,13 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://lib.itinerariummentis.org/media/config/2025/3/12/bONLPUrBzHytTZk1i3Poaw7xKQk.png",
     "blurhash": "",
+    "icon": "https://lib.itinerariummentis.org/icon.png",
     "total_users": 7,
     "last_week_users": 0,
     "approval_required": false,
@@ -146,12 +153,13 @@
     "languages": [
       "en"
     ],
-    "region": "Unknown",
+    "region": "",
     "categories": [
       "general"
     ],
     "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
     "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
     "total_users": 1,
     "last_week_users": 0,
     "approval_required": false,
@@ -161,22 +169,19 @@
   },
   {
     "domain": "neo.agnos.is",
-    "version": "Unknown",
+    "version": "",
     "title": "Agnos Neo",
     "description": "",
-    "languages": [
-      "Unknown"
-    ],
-    "region": "Unknown",
-    "categories": [
-      "Unknown"
-    ],
+    "languages": [],
+    "region": "",
+    "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
+    "icon": "",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "Unknown",
-    "category": "Unknown"
+    "language": "",
+    "category": ""
   }
 ]

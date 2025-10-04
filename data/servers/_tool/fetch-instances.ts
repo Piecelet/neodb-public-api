@@ -42,16 +42,33 @@ async function main() {
     const officialSorted = sortByUsersDesc(officialResults);
     const communitySorted = sortByUsersDesc(communityResults);
 
-    // Merge: official first, then community
-    const allResults = [...officialSorted, ...communitySorted];
+    // Sanitize unknown values: when unknown, leave empty instead of "Unknown"
+    const sanitize = (item: any) => {
+      const out: any = { ...item };
+      // Strings: blank out 'Unknown'/'unknown'
+      for (const [k, v] of Object.entries(out)) {
+        if (typeof v === 'string') {
+          if (v === 'Unknown' || v === 'unknown') {
+            out[k] = '';
+          }
+        } else if (Array.isArray(v)) {
+          // Arrays of strings: remove Unknown entries
+          out[k] = v.filter((x) => typeof x === 'string' && x !== 'Unknown' && x !== 'unknown');
+        }
+      }
+      return out;
+    };
+    const officialClean = officialSorted.map(sanitize);
+    const communityClean = communitySorted.map(sanitize);
+    const allResults = [...officialClean, ...communityClean];
 
     // Write results
     const outputPath = join(base, 'servers.json');
     const outputOfficialPath = join(base, 'servers-official.json');
     const outputCommunityPath = join(base, 'servers-community.json');
     writeFileSync(outputPath, JSON.stringify(allResults, null, 2), 'utf-8');
-    writeFileSync(outputOfficialPath, JSON.stringify(officialSorted, null, 2), 'utf-8');
-    writeFileSync(outputCommunityPath, JSON.stringify(communitySorted, null, 2), 'utf-8');
+    writeFileSync(outputOfficialPath, JSON.stringify(officialClean, null, 2), 'utf-8');
+    writeFileSync(outputCommunityPath, JSON.stringify(communityClean, null, 2), 'utf-8');
 
     console.log(`\n🎉 Successfully processed ${combinedResults.length}/${combinedUrls.length} servers (unique domains)`);
     console.log(`Results written:`);
@@ -64,7 +81,7 @@ async function main() {
     console.log('\n📊 Summary:');
     console.log(`- Total servers in output: ${allResults.length}`);
     console.log(`- Total active users across all servers: ${totalUsers.toLocaleString()}`);
-    const languages = Array.from(new Set(allResults.flatMap((s) => s.languages).filter((l) => l && l !== 'Unknown')));
+    const languages = Array.from(new Set(allResults.flatMap((s) => s.languages).filter((l) => l)));
     console.log(`- Languages supported: ${languages.join(', ')}`);
   } catch (error) {
     console.error('❌ Fatal error:', error);

@@ -1,6 +1,6 @@
 import type { ServerInfo } from '../types'
-import { fetchHomepageDescription, fetchInstanceInfo } from './net'
-import { capitalizeDescription, mapInstanceToServerInfo } from './transform'
+import { fetchHomepageDescription, fetchInstanceInfo, fetchHomepageIcon } from './net'
+import { capitalizeDescription, mapInstanceToServerInfo, makeAbsoluteUrl } from './transform'
 import { extractDomain } from './parse'
 import { createPlaceholderServerInfo } from './util'
 
@@ -35,6 +35,17 @@ export async function processServerList(urls: string[], concurrency = 10): Promi
 
         const enhanced = { ...instanceData, description }
         const info = mapInstanceToServerInfo(enhanced, domain)
+        // Fetch favicon from homepage and convert to absolute URL
+        try {
+          const href = await fetchHomepageIcon(domain)
+          if (href) {
+            info.icon = makeAbsoluteUrl(href, domain)
+          } else {
+            info.icon = ''
+          }
+        } catch {
+          info.icon = ''
+        }
         results.push(info)
         console.log(`[w${id}] ✓ Processed ${domain} successfully`)
       } else {
@@ -43,6 +54,12 @@ export async function processServerList(urls: string[], concurrency = 10): Promi
         homepageDescription = capitalizeDescription(homepageDescription)
         const placeholder = createPlaceholderServerInfo(domain)
         placeholder.description = homepageDescription
+        try {
+          const href = await fetchHomepageIcon(domain)
+          placeholder.icon = href ? makeAbsoluteUrl(href, domain) : ''
+        } catch {
+          placeholder.icon = ''
+        }
         results.push(placeholder)
         console.warn(`[w${id}] ✗ Created placeholder for ${domain} due to errors`)
       }
@@ -55,4 +72,3 @@ export async function processServerList(urls: string[], concurrency = 10): Promi
   await Promise.all(workers)
   return results
 }
-

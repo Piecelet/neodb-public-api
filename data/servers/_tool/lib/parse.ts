@@ -69,3 +69,17 @@ export function readServerUrls(filePath: string): string[] {
   }
   return urls
 }
+
+export function extractIconHref(html: string): string {
+  const cleanHtml = html.replace(/\s+/g, ' ')
+
+  // Match <link ... rel="...icon..." ... href="...">
+  const relFirst = /<link\s+[^>]*rel=["'][^"']*icon[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>/i
+  const hrefFirst = /<link\s+[^>]*href=["']([^"']+)["'][^>]*rel=["'][^"']*icon[^"']*["'][^>]*>/i
+
+  const m1 = relFirst.exec(cleanHtml)
+  if (m1 && m1[1]) return m1[1].trim()
+  const m2 = hrefFirst.exec(cleanHtml)
+  if (m2 && m2[1]) return m2[1].trim()
+  return ''
+}

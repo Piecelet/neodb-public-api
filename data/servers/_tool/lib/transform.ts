@@ -157,6 +157,7 @@ export function mapInstanceToServerInfo(instance: Instance, domain: string): Ser
     categories,
     proxied_thumbnail: thumbnailUrl,
     blurhash: instance.thumbnail?.blurhash || '',
+    icon: '',
     total_users: instance.usage?.users?.active_month || 0,
     last_week_users: 0,
     approval_required: instance.registrations?.approval_required || false,
@@ -165,4 +166,3 @@ export function mapInstanceToServerInfo(instance: Instance, domain: string): Ser
     title: generateTitleFromDomain(domain),
   }
 }
-

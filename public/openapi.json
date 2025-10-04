@@ -115,6 +115,9 @@
                     "blurhash": {
                       "type": "string"
                     },
+                    "icon": {
+                      "type": "string"
+                    },
                     "total_users": {
                       "type": "integer"
                     },
@@ -140,6 +143,7 @@
                     "categories",
                     "proxied_thumbnail",
                     "blurhash",
+                    "icon",
                     "total_users",
                     "last_week_users",
                     "approval_required",
@@ -175,6 +179,7 @@
           },
           "proxied_thumbnail": { "type": "string" },
           "blurhash": { "type": "string" },
+          "icon": { "type": "string" },
           "total_users": { "type": "integer" },
           "last_week_users": { "type": "integer" },
           "approval_required": { "type": "boolean" },
@@ -190,6 +195,7 @@
           "categories",
           "proxied_thumbnail",
           "blurhash",
+          "icon",
           "total_users",
           "last_week_users",
           "approval_required",

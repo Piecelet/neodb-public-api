@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 24237,
+    "total_users": 24248,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -21,7 +21,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-cccec03-435c1dc-20251002020758",
+    "version": "neodb/main-cccec03-33b2e53-20251003210013",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -161,22 +161,22 @@
   },
   {
     "domain": "neo.agnos.is",
-    "version": "neodb/0.12.2.2-cccec03-6cc8a0e-20250911180011",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "version": "Unknown",
+    "title": "Agnos Neo",
+    "description": "",
     "languages": [
-      "en"
+      "Unknown"
     ],
     "region": "Unknown",
     "categories": [
-      "general"
+      "Unknown"
     ],
-    "proxied_thumbnail": "https://neo.agnos.is/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "total_users": 1,
+    "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "en",
-    "category": "general",
-    "title": "Agnos Neo"
+    "language": "Unknown",
+    "category": "Unknown"
   }
 ]

@@ -12,7 +12,7 @@
     ],
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
-    "total_users": 24237,
+    "total_users": 24248,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -21,7 +21,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-cccec03-435c1dc-20251002020758",
+    "version": "neodb/main-cccec03-33b2e53-20251003210013",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

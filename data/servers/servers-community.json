@@ -6,7 +6,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -17,6 +21,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "ReviewDB"
   },
@@ -27,7 +32,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "europe",
+    "display_region": "Europe",
     "categories": [
       "general"
     ],
@@ -38,6 +47,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Minreol"
   },
@@ -48,7 +58,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "europe",
+    "display_region": "Europe",
     "categories": [
       "general"
     ],
@@ -59,6 +73,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Kevga NeoDB"
   },
@@ -69,7 +84,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -80,6 +99,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Casually DB"
   },
@@ -90,7 +110,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -101,6 +125,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Itinerariummentis Lib"
   },
@@ -111,7 +136,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -122,6 +151,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Melonbread Log"
   },
@@ -131,7 +161,9 @@
     "title": "Agnos Neo",
     "description": "",
     "languages": [],
+    "display_languages": [],
     "region": "",
+    "display_region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
@@ -140,6 +172,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
+    "display_language": "",
     "category": ""
   }
 ]

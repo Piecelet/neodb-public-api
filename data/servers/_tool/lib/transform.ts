@@ -237,7 +237,9 @@ export function mapInstanceToServerInfo(instance: Instance, domain: string): Ser
     version: instance.version || 'unknown',
     description: instance.description || '',
     languages: instance.languages || [primaryLanguage],
+    display_languages: displayLanguages(instance.languages || [primaryLanguage]),
     region,
+    display_region: displayRegion(region),
     categories,
     proxied_thumbnail: thumbnailUrl,
     blurhash: instance.thumbnail?.blurhash || '',
@@ -246,6 +248,7 @@ export function mapInstanceToServerInfo(instance: Instance, domain: string): Ser
     last_week_users: 0,
     approval_required: instance.registrations?.approval_required || false,
     language: primaryLanguage,
+    display_language: displayLanguage(primaryLanguage),
     category,
     title: generateTitleFromDomain(domain),
   }

@@ -6,7 +6,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -17,6 +21,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "NeoDB"
   },
@@ -27,7 +32,11 @@
     "languages": [
       "en"
     ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
+    "display_region": "",
     "categories": [
       "general"
     ],
@@ -38,6 +47,7 @@
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
+    "display_language": "English",
     "category": "general",
     "title": "Eggplant"
   }

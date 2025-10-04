@@ -98,7 +98,18 @@
                         }
                       ]
                     },
+                    "display_languages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
                     "region": {
+                      "type": "string"
+                    },
+                    "display_region": {
                       "type": "string"
                     },
                     "categories": {
@@ -130,6 +141,9 @@
                     "language": {
                       "type": "string"
                     },
+                    "display_language": {
+                      "type": "string"
+                    },
                     "category": {
                       "type": "string"
                     }
@@ -139,7 +153,9 @@
                     "version",
                     "description",
                     "languages",
+                    "display_languages",
                     "region",
+                    "display_region",
                     "categories",
                     "proxied_thumbnail",
                     "blurhash",
@@ -148,6 +164,7 @@
                     "last_week_users",
                     "approval_required",
                     "language",
+                    "display_language",
                     "category",
                     "title"
                   ]
@@ -172,7 +189,12 @@
             "type": "array",
             "items": { "type": "string" }
           },
+          "display_languages": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
           "region": { "type": "string" },
+          "display_region": { "type": "string" },
           "categories": {
             "type": "array",
             "items": { "type": "string" }
@@ -184,6 +206,7 @@
           "last_week_users": { "type": "integer" },
           "approval_required": { "type": "boolean" },
           "language": { "type": "string" },
+          "display_language": { "type": "string" },
           "category": { "type": "string" }
         },
         "required": [
@@ -191,7 +214,9 @@
           "version",
           "description",
           "languages",
+          "display_languages",
           "region",
+          "display_region",
           "categories",
           "proxied_thumbnail",
           "blurhash",
@@ -200,6 +225,7 @@
           "last_week_users",
           "approval_required",
           "language",
+          "display_language",
           "category",
           "title"
         ]

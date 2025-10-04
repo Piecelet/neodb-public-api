@@ -8,7 +8,9 @@ export function createPlaceholderServerInfo(domain: string): ServerInfo {
     title: generateTitleFromDomain(domain),
     description: '',
     languages: ['Unknown'],
+    display_languages: [],
     region: 'Unknown',
+    display_region: '',
     categories: ['Unknown'],
     proxied_thumbnail: 'https://neodb.internal/placeholder',
     blurhash: '',
@@ -17,6 +19,7 @@ export function createPlaceholderServerInfo(domain: string): ServerInfo {
     last_week_users: 0,
     approval_required: false,
     language: 'Unknown',
+    display_language: '',
     category: 'Unknown',
   }
 }

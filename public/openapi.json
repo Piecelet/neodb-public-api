@@ -129,6 +129,9 @@
                     "icon": {
                       "type": "string"
                     },
+                    "logo": {
+                      "type": "string"
+                    },
                     "total_users": {
                       "type": "integer"
                     },
@@ -202,6 +205,7 @@
           "proxied_thumbnail": { "type": "string" },
           "blurhash": { "type": "string" },
           "icon": { "type": "string" },
+          "logo": { "type": "string" },
           "total_users": { "type": "integer" },
           "last_week_users": { "type": "integer" },
           "approval_required": { "type": "boolean" },

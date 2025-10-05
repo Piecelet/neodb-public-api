@@ -54,6 +54,9 @@
       "icon": {
         "type": "string"
       },
+      "logo": {
+        "type": "string"
+      },
       "total_users": {
         "type": "integer"
       },

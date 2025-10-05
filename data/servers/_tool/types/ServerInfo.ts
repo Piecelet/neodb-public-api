@@ -14,6 +14,7 @@ export interface ServerInfo {
   proxied_thumbnail: string;
   blurhash: string;
   icon: string;
+  logo?: string;
   total_users: number;
   last_week_users: number;
   approval_required: boolean;

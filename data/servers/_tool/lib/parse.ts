@@ -83,3 +83,21 @@ export function extractIconHref(html: string): string {
   if (m2 && m2[1]) return m2[1].trim()
   return ''
 }
+
+export function extractHomepageLogo(html: string): string {
+  const s = html.replace(/\s+/g, ' ')
+  // Find container with class containing nav-logo, then the first <img src="...">
+  const containerRe = /<([a-z0-9]+)\s+[^>]*class=["'][^"']*\bnav-logo\b[^"']*["'][^>]*>([\s\S]*?)<\/\1>/i
+  const match = containerRe.exec(s)
+  if (match) {
+    const inner = match[2] || ''
+    const imgRe = /<img\s+[^>]*src=["']([^"']+)["'][^>]*>/i
+    const im = imgRe.exec(inner)
+    if (im && im[1]) return im[1].trim()
+  }
+  // Fallback: any <img> with id/class containing logo
+  const anyLogoImg = /<img\s+[^>]*(?:id|class)=["'][^"']*\blogo\b[^"']*["'][^>]*src=["']([^"']+)["'][^>]*>/i
+  const m2 = anyLogoImg.exec(s)
+  if (m2 && m2[1]) return m2[1].trim()
+  return ''
+}

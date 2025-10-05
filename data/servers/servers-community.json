@@ -10,7 +10,6 @@
       "English"
     ],
     "region": "",
-    "display_region": "",
     "categories": [
       "general"
     ],
@@ -23,7 +22,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "ReviewDB"
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -49,7 +49,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Minreol"
+    "title": "Minreol",
+    "logo": "https://minreol.dk/logo.png"
   },
   {
     "domain": "neodb.kevga.de",
@@ -75,7 +76,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Kevga NeoDB"
+    "title": "Kevga NeoDB",
+    "logo": "https://neodb.kevga.de/logo.png"
   },
   {
     "domain": "db.casually.cat",
@@ -88,7 +90,6 @@
       "English"
     ],
     "region": "",
-    "display_region": "",
     "categories": [
       "general"
     ],
@@ -101,7 +102,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Casually DB"
+    "title": "Casually DB",
+    "logo": "https://db.casually.cat/media/config/2025/2/20/yHnuKVuGcDVyEa4bv0j0Fk0IPLA.webp"
   },
   {
     "domain": "lib.itinerariummentis.org",
@@ -114,7 +116,6 @@
       "English"
     ],
     "region": "",
-    "display_region": "",
     "categories": [
       "general"
     ],
@@ -127,7 +128,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Itinerariummentis Lib"
+    "title": "Itinerariummentis Lib",
+    "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
     "domain": "log.melonbread.xyz",
@@ -140,7 +142,6 @@
       "English"
     ],
     "region": "",
-    "display_region": "",
     "categories": [
       "general"
     ],
@@ -153,7 +154,8 @@
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Melonbread Log"
+    "title": "Melonbread Log",
+    "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
     "domain": "neo.agnos.is",
@@ -163,16 +165,13 @@
     "languages": [],
     "display_languages": [],
     "region": "",
-    "display_region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "icon": "",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "display_language": "",
     "category": ""
   }
 ]

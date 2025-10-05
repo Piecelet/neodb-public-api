@@ -7,18 +7,20 @@ export interface ServerInfo {
   title: string;
   description: string;
   languages: string[];
-  display_languages: string[];
   region: string;
-  display_region: string;
   categories: string[];
   proxied_thumbnail: string;
   blurhash: string;
-  icon: string;
-  logo?: string;
   total_users: number;
   last_week_users: number;
   approval_required: boolean;
   language: string;
-  display_language: string;
   category: string;
+
+  // extra fields not from the official api.joinmastodon.org response
+  display_languages: string[];
+  display_region?: string;
+  logo?: string;
+  icon?: string;
+  display_language?: string;
 }

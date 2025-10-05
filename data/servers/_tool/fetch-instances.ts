@@ -42,20 +42,35 @@ async function main() {
     const officialSorted = sortByUsersDesc(officialResults);
     const communitySorted = sortByUsersDesc(communityResults);
 
-    // Sanitize unknown values: when unknown, leave empty instead of "Unknown"
+    // Sanitize values to align with optional extras semantics
+    // - Convert 'Unknown'/'unknown' to '' for strings
+    // - Drop empty-string optional extras (non-array): display_region, display_language, icon, logo
+    // - Keep arrays (like display_languages) present; they can be empty
     const sanitize = (item: any) => {
       const out: any = { ...item };
-      // Strings: blank out 'Unknown'/'unknown'
+      const optionalStringExtras = new Set(['display_region', 'display_language', 'icon', 'logo']);
+
       for (const [k, v] of Object.entries(out)) {
         if (typeof v === 'string') {
-          if (v === 'Unknown' || v === 'unknown') {
-            out[k] = '';
+          let newVal = v;
+          if (newVal === 'Unknown' || newVal === 'unknown') newVal = '';
+          // If this is an optional extra and empty, remove the key entirely
+          if (optionalStringExtras.has(k)) {
+            if (!newVal) {
+              delete out[k];
+              continue;
+            }
           }
+          out[k] = newVal;
         } else if (Array.isArray(v)) {
-          // Arrays of strings: remove Unknown entries
+          // Arrays: remove Unknown entries but keep the array itself (can be empty)
           out[k] = v.filter((x) => typeof x === 'string' && x !== 'Unknown' && x !== 'unknown');
         }
       }
+
+      // Ensure array extras are present (they can be empty)
+      if (!Array.isArray(out.display_languages)) out.display_languages = [];
+
       return out;
     };
     const officialClean = officialSorted.map(sanitize);

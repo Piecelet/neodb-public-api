@@ -2,7 +2,7 @@
   "openapi": "3.1.1",
   "info": {
     "title": "NeoDB Public API",
-    "version": "1.2",
+    "version": "1.3",
     "description": "NeoDB Public Information API maintained by Piecelet app, opensourced on https://github.com/Piecelet/neodb-public-api - Public endpoints for NeoDB instances and schema."
   },
   "paths": {
@@ -158,16 +158,13 @@
                     "languages",
                     "display_languages",
                     "region",
-                    "display_region",
                     "categories",
                     "proxied_thumbnail",
                     "blurhash",
-                    "icon",
                     "total_users",
                     "last_week_users",
                     "approval_required",
                     "language",
-                    "display_language",
                     "category",
                     "title"
                   ]
@@ -220,16 +217,13 @@
           "languages",
           "display_languages",
           "region",
-          "display_region",
           "categories",
           "proxied_thumbnail",
           "blurhash",
-          "icon",
           "total_users",
           "last_week_users",
           "approval_required",
           "language",
-          "display_language",
           "category",
           "title"
         ]

@@ -83,16 +83,13 @@
       "languages",
       "display_languages",
       "region",
-      "display_region",
       "categories",
       "proxied_thumbnail",
       "blurhash",
-      "icon",
       "total_users",
       "last_week_users",
       "approval_required",
       "language",
-      "display_language",
       "category",
       "title"
     ]

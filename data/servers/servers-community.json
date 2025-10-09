@@ -135,18 +135,20 @@
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [],
     "display_languages": [],
     "region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "category": ""
+    "category": "",
+    "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
     "domain": "neo.agnos.is",

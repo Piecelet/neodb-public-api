@@ -132,6 +132,84 @@
     "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
+    "domain": "crititeca.illustietor.com",
+    "version": "neodb/0.12.3-cccec03-e789a5b-20251001171324",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://crititeca.illustietor.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://crititeca.illustietor.com/s/img/icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Illustietor Crititeca",
+    "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
+  },
+  {
+    "domain": "neodb.neo-cities.homes",
+    "version": "neodb/0.12.2.2-cccec03-6cc8a0e-20250911180011",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.neo-cities.homes/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.neo-cities.homes/icon.png",
+    "total_users": 2,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Neo-cities NeoDB",
+    "logo": "https://neodb.neo-cities.homes/logo.png"
+  },
+  {
+    "domain": "bombomschool.com",
+    "version": "neodb/0.12.3-cccec03-e789a5b-20251001171324",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://bombomschool.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://bombomschool.com/s/img/icon.png",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Bombomschool",
+    "logo": "https://bombomschool.com/s/img/logo.png"
+  },
+  {
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",

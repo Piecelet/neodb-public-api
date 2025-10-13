@@ -210,24 +210,6 @@
     "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
-    "domain": "bombomschool.com",
-    "version": "",
-    "title": "Bombomschool",
-    "description": "책과 함께하는 성장 이야기, 봄봄스쿨",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "icon": "https://bombomschool.com/favicon.ico",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
     "domain": "neo.agnos.is",
     "version": "",
     "title": "Agnos Neo",

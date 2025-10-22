@@ -185,7 +185,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "neodb/0.12.3-cccec03-e789a5b-20251001171324",
+    "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

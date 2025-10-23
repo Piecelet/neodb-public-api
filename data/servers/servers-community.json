@@ -1,7 +1,7 @@
 [
   {
     "domain": "reviewdb.app",
-    "version": "neodb/0.12.2.2-cccec03-6cc8a0e-20250911180011",
+    "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 111,
+    "total_users": 112,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",

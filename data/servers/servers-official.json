@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 24705,
+    "total_users": 24719,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,19 +27,28 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "",
-    "title": "Eggplant",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
+    "version": "neodb/main-cccec03-9370881-20251022140753",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
-    "total_users": 0,
+    "icon": "https://eggplant.place/logo2.png",
+    "total_users": 530,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "",
-    "category": ""
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Eggplant",
+    "logo": "https://eggplant.place/logo2.png"
   }
 ]

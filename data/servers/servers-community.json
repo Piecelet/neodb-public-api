@@ -80,32 +80,6 @@
     "logo": "https://neodb.kevga.de/logo.png"
   },
   {
-    "domain": "db.casually.cat",
-    "version": "neodb/0.11.7.3",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://db.casually.cat/icon.png",
-    "total_users": 10,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Casually DB",
-    "logo": "https://db.casually.cat/media/config/2025/2/20/yHnuKVuGcDVyEa4bv0j0Fk0IPLA.webp"
-  },
-  {
     "domain": "lib.itinerariummentis.org",
     "version": "neodb/dev",
     "description": "Itinerarium in Librarium Mentis",
@@ -208,6 +182,23 @@
     "category": "general",
     "title": "Melonbread Log",
     "logo": "https://log.melonbread.xyz/logo.png"
+  },
+  {
+    "domain": "db.casually.cat",
+    "version": "",
+    "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
   },
   {
     "domain": "neo.agnos.is",

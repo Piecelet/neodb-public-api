@@ -1,8 +1,12 @@
 import { Hono } from 'hono'
+import { cors } from 'hono/cors'
 import { swaggerUI } from '@hono/swagger-ui'
 import servers from '@/src/servers'
 
 const app = new Hono()
+
+// Allow CORS from any origin
+app.use('/*', cors({ origin: '*' }))
 
 // Swagger UI at root; spec is served as a static asset by Cloudflare
 app.get(

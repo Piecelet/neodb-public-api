@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 25012,
+    "total_users": 25020,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,27 +27,20 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-cccec03-9370881-20251022140753",
+    "version": "",
+    "title": "Eggplant",
     "description": "",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
+    "languages": [],
+    "display_languages": [],
     "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "total_users": 558,
+    "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Eggplant"
+    "language": "",
+    "category": ""
   },
   {
     "domain": "reviewdb.app",

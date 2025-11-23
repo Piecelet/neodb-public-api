@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 25089,
+    "total_users": 25106,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 562,
+    "total_users": 563,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -104,6 +104,32 @@
     "category": "general",
     "title": "Kevga NeoDB",
     "logo": "https://neodb.kevga.de/logo.png"
+  },
+  {
+    "domain": "db.casually.cat",
+    "version": "neodb/0.11.7.3",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://db.casually.cat/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://db.casually.cat/icon.png",
+    "total_users": 10,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Casually DB",
+    "logo": "https://db.casually.cat/media/config/2025/2/20/yHnuKVuGcDVyEa4bv0j0Fk0IPLA.webp"
   },
   {
     "domain": "lib.itinerariummentis.org",
@@ -208,23 +234,6 @@
     "category": "general",
     "title": "Melonbread Log",
     "logo": "https://log.melonbread.xyz/logo.png"
-  },
-  {
-    "domain": "db.casually.cat",
-    "version": "",
-    "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
   },
   {
     "domain": "neo.agnos.is",

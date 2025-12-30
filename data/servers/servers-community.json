@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 127,
+    "total_users": 128,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -70,7 +70,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 38,
+    "total_users": 39,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -158,26 +158,35 @@
     "logo": "https://neodb.neo-cities.homes/logo.png"
   },
   {
+    "domain": "log.melonbread.xyz",
+    "version": "neodb/0.12.7-cccec03-79f8b9e-20251228152210",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
+    "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Melonbread Log",
+    "logo": "https://log.melonbread.xyz/logo.png"
+  },
+  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "log.melonbread.xyz",
-    "version": "",
-    "title": "Melonbread Log",
     "description": "",
     "languages": [],
     "display_languages": [],

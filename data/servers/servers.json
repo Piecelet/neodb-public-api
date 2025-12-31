@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 26145,
+    "total_users": 26175,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 610,
+    "total_users": 612,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "neodb/0.12.7-cccec03-79f8b9e-20251228152210",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

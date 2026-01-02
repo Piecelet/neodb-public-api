@@ -108,7 +108,7 @@
   {
     "domain": "crititeca.illustietor.com",
     "version": "neodb/0.12.3-cccec03-e789a5b-20251001171324",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],

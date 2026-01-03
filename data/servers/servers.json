@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 26212,
+    "total_users": 26245,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "version": "neodb/0.12.7.2-cccec03-015d7a7-20260101214020",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 133,
+    "total_users": 134,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -80,6 +80,32 @@
     "logo": "https://neodb.kevga.de/logo.png"
   },
   {
+    "domain": "fantastika.social",
+    "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
+    "description": "DESC TEXT",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://media.fantastika.social/config/2025/2/28/Z1Usn6g0S5l8jtgucRqrmQ9Qw8U.png",
+    "blurhash": "",
+    "icon": "https://fantastika.social/s/img/icon.png",
+    "total_users": 33,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Fantastika",
+    "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
+  },
+  {
     "domain": "lib.itinerariummentis.org",
     "version": "neodb/dev",
     "description": "Itinerarium in Librarium Mentis",
@@ -104,6 +130,32 @@
     "category": "general",
     "title": "Itinerariummentis Lib",
     "logo": "https://lib.itinerariummentis.org/logo.png"
+  },
+  {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 6,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://garage.o00o.lol/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",
@@ -159,7 +211,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "neodb/0.12.7.2-cccec03-015d7a7-20260101214020",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -187,23 +239,6 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "neo.agnos.is",
-    "version": "",
-    "title": "Agnos Neo",
     "description": "",
     "languages": [],
     "display_languages": [],

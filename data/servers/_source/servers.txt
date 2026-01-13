@@ -7,8 +7,10 @@ https://minreol.dk/
 https://db.casually.cat/
 https://neodb.kevga.de/
 https://log.melonbread.xyz/
-https://neo.agnos.is/
+# https://neo.agnos.is/ 502 since 2026.1.13
 https://lib.itinerariummentis.org/
 https://crititeca.illustietor.com/
 https://neodb.neo-cities.homes/
 # https://bombomschool.com/ No longer be a NeoDB site.
+https://fantastika.social/
+https://garage.o00o.lol/

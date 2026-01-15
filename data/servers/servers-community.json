@@ -185,7 +185,7 @@
   },
   {
     "domain": "neodb.neo-cities.homes",
-    "version": "neodb/0.12.5-cccec03-aab3323-20251212131407",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

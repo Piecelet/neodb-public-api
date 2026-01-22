@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 26756,
+    "total_users": 26786,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 647,
+    "total_users": 648,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -184,32 +184,6 @@
     "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
-    "domain": "garage.o00o.lol",
-    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
-    "blurhash": "",
-    "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 6,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "O00o Garage",
-    "logo": "https://garage.o00o.lol/logo.png"
-  },
-  {
     "domain": "crititeca.illustietor.com",
     "version": "neodb/0.12.7.2-cccec03-015d7a7-20260101214020",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -291,6 +265,23 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "garage.o00o.lol",
+    "version": "",
+    "title": "O00o Garage",
     "description": "",
     "languages": [],
     "display_languages": [],

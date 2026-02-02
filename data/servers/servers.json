@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27063,
+    "total_users": 27079,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-cccec03-5d1d336-20260112133352",
+    "version": "neodb/main-cccec03-9fc8408-20260201183538",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -238,7 +238,7 @@
   {
     "domain": "neodb.neo-cities.homes",
     "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -251,6 +251,7 @@
     ],
     "proxied_thumbnail": "https://neodb.neo-cities.homes/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://neodb.neo-cities.homes/icon.png",
     "total_users": 2,
     "last_week_users": 0,
     "approval_required": false,
@@ -281,17 +282,19 @@
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [],
     "display_languages": [],
     "region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "category": ""
+    "category": "",
+    "logo": "https://log.melonbread.xyz/logo.png"
   }
 ]

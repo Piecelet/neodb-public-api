@@ -148,7 +148,7 @@
     "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
     "blurhash": "",
     "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 6,
+    "total_users": 7,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -210,6 +210,32 @@
     "logo": "https://neodb.neo-cities.homes/logo.png"
   },
   {
+    "domain": "log.melonbread.xyz",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
+    "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Melonbread Log",
+    "logo": "https://log.melonbread.xyz/logo.png"
+  },
+  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
@@ -225,24 +251,5 @@
     "approval_required": false,
     "language": "",
     "category": ""
-  },
-  {
-    "domain": "log.melonbread.xyz",
-    "version": "",
-    "title": "Melonbread Log",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "icon": "https://log.melonbread.xyz/icon.png",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": "",
-    "logo": "https://log.melonbread.xyz/logo.png"
   }
 ]

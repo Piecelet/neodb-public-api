@@ -106,6 +106,32 @@
     "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
   },
   {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 9,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://memos.o00o.lol/file/resources/iqFLgfH7TvYmAvBkUQCPbu/logo.png"
+  },
+  {
     "domain": "lib.itinerariummentis.org",
     "version": "neodb/dev",
     "description": "Itinerarium in Librarium Mentis",
@@ -130,32 +156,6 @@
     "category": "general",
     "title": "Itinerariummentis Lib",
     "logo": "https://lib.itinerariummentis.org/logo.png"
-  },
-  {
-    "domain": "garage.o00o.lol",
-    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
-    "blurhash": "",
-    "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 7,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "O00o Garage",
-    "logo": "https://garage.o00o.lol/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",

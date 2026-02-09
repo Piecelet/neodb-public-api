@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27193,
+    "total_users": 27206,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -134,7 +134,7 @@
   {
     "domain": "fantastika.social",
     "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
-    "description": "DESC TEXT",
+    "description": "",
     "languages": [
       "en"
     ],

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27206,
+    "total_users": 27229,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -134,7 +134,7 @@
   {
     "domain": "fantastika.social",
     "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
-    "description": "",
+    "description": "DESC TEXT",
     "languages": [
       "en"
     ],
@@ -156,6 +156,32 @@
     "category": "general",
     "title": "Fantastika",
     "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
+  },
+  {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 9,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://memos.o00o.lol/file/resources/iqFLgfH7TvYmAvBkUQCPbu/logo.png"
   },
   {
     "domain": "lib.itinerariummentis.org",
@@ -265,23 +291,6 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "garage.o00o.lol",
-    "version": "",
-    "title": "O00o Garage",
     "description": "",
     "languages": [],
     "display_languages": [],

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27269,
+    "total_users": 27280,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -50,32 +50,6 @@
     "category": "general",
     "title": "Eggplant",
     "logo": "https://eggplant.place/logo2.png"
-  },
-  {
-    "domain": "reviewdb.app",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
-    "total_users": 140,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -236,32 +210,6 @@
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
   },
   {
-    "domain": "neodb.neo-cities.homes",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.neo-cities.homes/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.neo-cities.homes/icon.png",
-    "total_users": 2,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Neo-cities NeoDB",
-    "logo": "https://neodb.neo-cities.homes/logo.png"
-  },
-  {
     "domain": "log.melonbread.xyz",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -291,6 +239,40 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "neodb.neo-cities.homes",
+    "version": "",
+    "title": "Neo-cities NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "",
+    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

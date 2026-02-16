@@ -14,3 +14,5 @@ https://neodb.neo-cities.homes/
 # https://bombomschool.com/ No longer be a NeoDB site.
 https://fantastika.social/
 https://garage.o00o.lol/
+https://watch.socialyeti.club/
+https://neodb.nickfi.de/

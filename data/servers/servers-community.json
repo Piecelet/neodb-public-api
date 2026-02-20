@@ -80,32 +80,6 @@
     "logo": "https://neodb.kevga.de/logo.png"
   },
   {
-    "domain": "fantastika.social",
-    "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
-    "description": "DESC TEXT",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://media.fantastika.social/config/2025/2/28/Z1Usn6g0S5l8jtgucRqrmQ9Qw8U.png",
-    "blurhash": "",
-    "icon": "https://fantastika.social/s/img/icon.png",
-    "total_users": 34,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Fantastika",
-    "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
-  },
-  {
     "domain": "garage.o00o.lol",
     "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -133,7 +107,7 @@
   },
   {
     "domain": "lib.itinerariummentis.org",
-    "version": "neodb/dev",
+    "version": "neodb/dev-unknown",
     "description": "Itinerarium in Librarium Mentis",
     "languages": [
       "en"
@@ -182,6 +156,33 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
+  },
+  {
+    "domain": "neodb.nickfi.de",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "europe",
+    "display_region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.nickfi.de/icon.png",
+    "total_users": 2,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Nickfi NeoDB",
+    "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
     "domain": "watch.socialyeti.club",
@@ -236,36 +237,26 @@
     "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
-    "domain": "neodb.nickfi.de",
-    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "europe",
-    "display_region": "Europe",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.nickfi.de/icon.png",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Nickfi NeoDB",
-    "logo": "https://neodb.nickfi.de/logo.png"
-  },
-  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "fantastika.social",
+    "version": "",
+    "title": "Fantastika",
     "description": "",
     "languages": [],
     "display_languages": [],

@@ -184,6 +184,32 @@
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
   },
   {
+    "domain": "watch.socialyeti.club",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Socialyeti Watch",
+    "logo": "https://watch.socialyeti.club/yeti-watch.png"
+  },
+  {
     "domain": "neodb.nickfi.de",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -209,32 +235,6 @@
     "category": "general",
     "title": "Nickfi NeoDB",
     "logo": "https://neodb.nickfi.de/logo.png"
-  },
-  {
-    "domain": "watch.socialyeti.club",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
-    "total_users": 2,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Socialyeti Watch",
-    "logo": "https://watch.socialyeti.club/yeti-watch.png"
   },
   {
     "domain": "log.melonbread.xyz",

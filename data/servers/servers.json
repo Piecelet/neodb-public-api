@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27932,
+    "total_users": 27961,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -95,7 +95,7 @@
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://minreol.dk/icon.png",
-    "total_users": 115,
+    "total_users": 116,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -262,7 +262,7 @@
     "logo": "https://watch.socialyeti.club/yeti-watch.png"
   },
   {
-    "domain": "neodb.nickfi.de",
+    "domain": "log.melonbread.xyz",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
@@ -271,22 +271,21 @@
     "display_languages": [
       "English"
     ],
-    "region": "europe",
-    "display_region": "Europe",
+    "region": "",
     "categories": [
       "general"
     ],
-    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
+    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
     "blurhash": "",
-    "icon": "https://neodb.nickfi.de/icon.png",
-    "total_users": 2,
+    "icon": "https://log.melonbread.xyz/icon.png",
+    "total_users": 1,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Nickfi NeoDB",
-    "logo": "https://neodb.nickfi.de/logo.png"
+    "title": "Melonbread Log",
+    "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
     "domain": "db.casually.cat",
@@ -306,9 +305,9 @@
     "category": ""
   },
   {
-    "domain": "log.melonbread.xyz",
+    "domain": "neodb.neo-cities.homes",
     "version": "",
-    "title": "Melonbread Log",
+    "title": "Neo-cities NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],
@@ -323,9 +322,9 @@
     "category": ""
   },
   {
-    "domain": "neodb.neo-cities.homes",
+    "domain": "neodb.nickfi.de",
     "version": "",
-    "title": "Neo-cities NeoDB",
+    "title": "Nickfi NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

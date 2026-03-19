@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 27961,
+    "total_users": 27987,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 719,
+    "total_users": 720,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -68,7 +68,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 143,
+    "total_users": 144,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -122,7 +122,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 44,
+    "total_users": 45,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -236,33 +236,7 @@
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
   },
   {
-    "domain": "watch.socialyeti.club",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
-    "total_users": 3,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Socialyeti Watch",
-    "logo": "https://watch.socialyeti.club/yeti-watch.png"
-  },
-  {
-    "domain": "log.melonbread.xyz",
+    "domain": "neodb.nickfi.de",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
@@ -271,26 +245,44 @@
     "display_languages": [
       "English"
     ],
-    "region": "",
+    "region": "europe",
+    "display_region": "Europe",
     "categories": [
       "general"
     ],
-    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
+    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
     "blurhash": "",
-    "icon": "https://log.melonbread.xyz/icon.png",
-    "total_users": 1,
+    "icon": "https://neodb.nickfi.de/icon.png",
+    "total_users": 2,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Melonbread Log",
-    "logo": "https://log.melonbread.xyz/logo.png"
+    "title": "Nickfi NeoDB",
+    "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "log.melonbread.xyz",
+    "version": "",
+    "title": "Melonbread Log",
     "description": "",
     "languages": [],
     "display_languages": [],
@@ -322,9 +314,9 @@
     "category": ""
   },
   {
-    "domain": "neodb.nickfi.de",
+    "domain": "watch.socialyeti.club",
     "version": "",
-    "title": "Nickfi NeoDB",
+    "title": "Socialyeti Watch",
     "description": "",
     "languages": [],
     "display_languages": [],

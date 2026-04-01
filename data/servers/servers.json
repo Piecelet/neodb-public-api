@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "neodb/0.13.2-109adb6-2747a39-20260330221343",
+    "version": "4.0.4 (compatible; NeoDB 0.13.4-956fd13-762ebff-20260331223715)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28328,
+    "total_users": 28350,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "neodb/main-2de089d-12afefc-20260331030808",
+    "version": "4.0.4 (compatible; NeoDB main-956fd13-762ebff-20260331222607)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 726,
+    "total_users": 727,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -50,6 +50,32 @@
     "category": "general",
     "title": "Eggplant",
     "logo": "https://eggplant.place/logo2.png"
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
+    "total_users": 147,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -96,7 +122,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 45,
+    "total_users": 46,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -185,7 +211,7 @@
   },
   {
     "domain": "crititeca.illustietor.com",
-    "version": "neodb/0.12.7.2-cccec03-015d7a7-20260101214020",
+    "version": "neodb/0.13.2-109adb6-2747a39-20260330221343",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -208,32 +234,6 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
-  },
-  {
-    "domain": "watch.socialyeti.club",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
-    "total_users": 3,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Socialyeti Watch",
-    "logo": "https://watch.socialyeti.club/yeti-watch.png"
   },
   {
     "domain": "neodb.nickfi.de",
@@ -264,7 +264,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "neodb/0.13.1-109adb6-52ee723-20260330015413",
+    "version": "neodb/0.13.2-109adb6-2747a39-20260330221343",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -323,20 +323,22 @@
     "category": ""
   },
   {
-    "domain": "reviewdb.app",
+    "domain": "watch.socialyeti.club",
     "version": "",
-    "title": "ReviewDB",
-    "description": "",
+    "title": "Socialyeti Watch",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [],
     "display_languages": [],
     "region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
+    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "category": ""
+    "category": "",
+    "logo": "https://watch.socialyeti.club/yeti-watch.png"
   }
 ]

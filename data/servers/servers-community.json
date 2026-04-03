@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 147,
+    "total_users": 148,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "neodb.nickfi.de",
-    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -238,7 +238,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.13.4-956fd13-762ebff-20260331223715)",
+    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

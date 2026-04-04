@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
+    "version": "4.0.4 (compatible; NeoDB 0.13.7-10a68c3-f8570ea-20260403163253)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28405,
+    "total_users": 28438,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-d8ba1f9-2d71753-20260403035353)",
+    "version": "4.0.4 (compatible; NeoDB main-6010d14-4018c41-20260404033542)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

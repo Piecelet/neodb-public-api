@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
+    "version": "4.0.4 (compatible; NeoDB 0.13.7-10a68c3-f8570ea-20260403163253)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28405,
+    "total_users": 28438,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-d8ba1f9-2d71753-20260403035353)",
+    "version": "4.0.4 (compatible; NeoDB main-6010d14-4018c41-20260404033542)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -68,7 +68,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 148,
+    "total_users": 149,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -200,7 +200,7 @@
     "proxied_thumbnail": "https://lib.itinerariummentis.org/media/config/2025/3/12/bONLPUrBzHytTZk1i3Poaw7xKQk.png",
     "blurhash": "",
     "icon": "https://lib.itinerariummentis.org/icon.png",
-    "total_users": 9,
+    "total_users": 10,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -289,35 +289,26 @@
     "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
-    "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
-    "blurhash": "",
-    "icon": "https://log.melonbread.xyz/icon.png",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Melonbread Log",
-    "logo": "https://log.melonbread.xyz/logo.png"
-  },
-  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "log.melonbread.xyz",
+    "version": "",
+    "title": "Melonbread Log",
     "description": "",
     "languages": [],
     "display_languages": [],

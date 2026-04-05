@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28438,
+    "total_users": 28466,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-6010d14-4018c41-20260404033542)",
+    "version": "4.0.4 (compatible; NeoDB main-6ed5f09-4426aa8-20260405041537)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 730,
+    "total_users": 732,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -68,7 +68,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 149,
+    "total_users": 151,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -174,7 +174,7 @@
     "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
     "blurhash": "",
     "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 10,
+    "total_users": 11,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -234,6 +234,32 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
+  },
+  {
+    "domain": "neodb.neo-cities.homes",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.neo-cities.homes/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.neo-cities.homes/icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Neo-cities NeoDB",
+    "logo": "https://neodb.neo-cities.homes/logo.png"
   },
   {
     "domain": "watch.socialyeti.club",
@@ -309,23 +335,6 @@
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "neodb.neo-cities.homes",
-    "version": "",
-    "title": "Neo-cities NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

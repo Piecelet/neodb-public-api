@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.13.7-10a68c3-f8570ea-20260403163253)",
+    "version": "4.0.4 (compatible; NeoDB 0.13.8.1-c25598a-e45e88c-20260406221756)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28493,
+    "total_users": 28511,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-0513163-aa4cf51-20260406034814)",
+    "version": "4.0.4 (compatible; NeoDB main-73cfdc2-e7a0b1e-20260407023228)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 732,
+    "total_users": 733,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -54,7 +54,7 @@
   {
     "domain": "reviewdb.app",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -67,15 +67,13 @@
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
     "total_users": 151,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
+    "title": "ReviewDB"
   },
   {
     "domain": "minreol.dk",

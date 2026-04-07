@@ -2,7 +2,7 @@
   {
     "domain": "reviewdb.app",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -15,15 +15,13 @@
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
     "total_users": 151,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
+    "title": "ReviewDB"
   },
   {
     "domain": "minreol.dk",

@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.13.8.1-c25598a-e45e88c-20260406221756)",
+    "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28511,
+    "total_users": 28536,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-73cfdc2-e7a0b1e-20260407023228)",
+    "version": "4.0.4 (compatible; NeoDB main-8aef75b-1e833bd-20260408034242)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 733,
+    "total_users": 734,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -54,7 +54,7 @@
   {
     "domain": "reviewdb.app",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -67,13 +67,15 @@
     ],
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
     "total_users": 151,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "ReviewDB"
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -260,6 +262,33 @@
     "logo": "https://neodb.neo-cities.homes/logo.png"
   },
   {
+    "domain": "neodb.nickfi.de",
+    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "europe",
+    "display_region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.nickfi.de/icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Nickfi NeoDB",
+    "logo": "https://neodb.nickfi.de/logo.png"
+  },
+  {
     "domain": "watch.socialyeti.club",
     "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -284,33 +313,6 @@
     "category": "general",
     "title": "Socialyeti Watch",
     "logo": "https://watch.socialyeti.club/yeti-watch.png"
-  },
-  {
-    "domain": "neodb.nickfi.de",
-    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "europe",
-    "display_region": "Europe",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.nickfi.de/icon.png",
-    "total_users": 2,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Nickfi NeoDB",
-    "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
     "domain": "db.casually.cat",

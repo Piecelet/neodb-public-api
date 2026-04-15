@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28731,
+    "total_users": 28733,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -219,7 +219,8 @@
     "display_languages": [
       "English"
     ],
-    "region": "",
+    "region": "asia",
+    "display_region": "Asia",
     "categories": [
       "general"
     ],
@@ -234,33 +235,6 @@
     "category": "general",
     "title": "Mastodon NeoDB",
     "logo": "https://neodb.mastodon.work/logo.png"
-  },
-  {
-    "domain": "polg.cn",
-    "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "asia",
-    "display_region": "Asia",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
-    "blurhash": "",
-    "icon": "https://polg.cn/favicon.ico",
-    "total_users": 5,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Polg",
-    "logo": "https://polg.cn/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",

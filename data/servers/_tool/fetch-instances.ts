@@ -2,7 +2,7 @@
 
 import { writeFileSync } from 'fs'
 import { join } from 'path'
-import { readServerUrls, extractDomain, processServerList, sortByUsersDesc } from './lib/'
+import { readServerUrls, extractDomain, processServerList, sortByUsersDesc, dedupeServerInfosByDomain } from './lib/'
 
 /**
  * Main function to process official and community servers separately, sort, then merge.
@@ -38,9 +38,16 @@ async function main() {
     const officialResults = combinedResults.filter((s) => officialDomains.has(s.domain));
     const communityResults = combinedResults.filter((s) => communityDomains.has(s.domain) && !officialDomains.has(s.domain));
 
+    // Merge aliases / duplicate canonical domains inside each group before sorting.
+    // Some hosts expose the same underlying instance and return the same canonical
+    // `domain` from /api/v2/instance, while other aliases may fail and only produce
+    // placeholders. Keep one merged record per final domain.
+    const officialDeduped = dedupeServerInfosByDomain(officialResults);
+    const communityDeduped = dedupeServerInfosByDomain(communityResults);
+
     // Sort each group by users desc
-    const officialSorted = sortByUsersDesc(officialResults);
-    const communitySorted = sortByUsersDesc(communityResults);
+    const officialSorted = sortByUsersDesc(officialDeduped);
+    const communitySorted = sortByUsersDesc(communityDeduped);
 
     // Sanitize values to align with optional extras semantics
     // - Convert 'Unknown'/'unknown' to '' for strings

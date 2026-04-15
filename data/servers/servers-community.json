@@ -158,6 +158,59 @@
     "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
+    "domain": "polg.cn",
+    "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
+    "blurhash": "",
+    "icon": "https://neodb.mastodon.work/favicon.ico",
+    "total_users": 5,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Mastodon NeoDB",
+    "logo": "https://neodb.mastodon.work/logo.png"
+  },
+  {
+    "domain": "polg.cn",
+    "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "asia",
+    "display_region": "Asia",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
+    "blurhash": "",
+    "icon": "https://polg.cn/favicon.ico",
+    "total_users": 5,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Polg",
+    "logo": "https://polg.cn/logo.png"
+  },
+  {
     "domain": "crititeca.illustietor.com",
     "version": "neodb/0.13.2-109adb6-2747a39-20260330221343",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -263,6 +316,33 @@
     "logo": "https://watch.socialyeti.club/yeti-watch.png"
   },
   {
+    "domain": "film.upstairs.cn",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "asia",
+    "display_region": "Asia",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
+    "blurhash": "",
+    "icon": "https://film.upstairs.cn/favicon.ico",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Upstairs Film",
+    "logo": "https://film.upstairs.cn/logo.png"
+  },
+  {
     "domain": "log.melonbread.xyz",
     "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -287,6 +367,32 @@
     "category": "general",
     "title": "Melonbread Log",
     "logo": "https://log.melonbread.xyz/logo.png"
+  },
+  {
+    "domain": "neodb.versi-tech.com",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.versi-tech.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.versi-tech.com/icon.png",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Versi-tech NeoDB",
+    "logo": "https://neodb.versi-tech.com/logo.png"
   },
   {
     "domain": "db.casually.cat",

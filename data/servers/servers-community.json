@@ -292,7 +292,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.13.9-8aef75b-b2f1c8e-20260408024905)",
+    "version": "4.0.4 (compatible; NeoDB 0.14.0.4-3a37959-d5f57ae-20260418020654)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 28826,
+    "total_users": 28846,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-3a37959-e9345c0-20260419061322)",
+    "version": "4.0.4 (compatible; NeoDB main-3a37959-9156cd3-20260421041800)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -200,15 +200,15 @@
     ],
     "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
     "blurhash": "",
-    "icon": "https://neodb.mastodon.work/favicon.ico",
+    "icon": "https://polg.cn/favicon.ico",
     "total_users": 5,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Mastodon NeoDB",
-    "logo": "https://neodb.mastodon.work/logo.png"
+    "title": "Polg",
+    "logo": "https://polg.cn/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",
@@ -235,32 +235,6 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
-  },
-  {
-    "domain": "neodb.neo-cities.homes",
-    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.neo-cities.homes/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.neo-cities.homes/icon.png",
-    "total_users": 3,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Neo-cities NeoDB",
-    "logo": "https://neodb.neo-cities.homes/logo.png"
   },
   {
     "domain": "neodb.nickfi.de",
@@ -344,7 +318,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.14.0.4-3a37959-d5f57ae-20260418020654)",
+    "version": "4.0.4 (compatible; NeoDB 0.14.0.5-3a37959-e9345c0-20260419154748)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -415,6 +389,23 @@
     "domain": "garage.o00o.lol",
     "version": "",
     "title": "O00o Garage",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "neodb.neo-cities.homes",
+    "version": "",
+    "title": "Neo-cities NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

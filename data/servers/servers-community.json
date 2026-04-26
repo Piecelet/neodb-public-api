@@ -17,7 +17,7 @@
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://minreol.dk/icon.png",
-    "total_users": 120,
+    "total_users": 121,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -78,32 +78,6 @@
     "category": "general",
     "title": "Fantastika",
     "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
-  },
-  {
-    "domain": "garage.o00o.lol",
-    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
-    "blurhash": "",
-    "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 11,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "O00o Garage",
-    "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
   },
   {
     "domain": "lib.itinerariummentis.org",
@@ -265,58 +239,6 @@
     "logo": "https://film.upstairs.cn/logo.png"
   },
   {
-    "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.14.0.5-3a37959-e9345c0-20260419154748)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://log.melonbread.xyz/media/config/2025/9/16/sDZrCI5t435CnnsJkp82YzyL2ZU.jpg",
-    "blurhash": "",
-    "icon": "https://log.melonbread.xyz/icon.png",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Melonbread Log",
-    "logo": "https://log.melonbread.xyz/logo.png"
-  },
-  {
-    "domain": "neodb.versi-tech.com",
-    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.versi-tech.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.versi-tech.com/icon.png",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Versi-tech NeoDB",
-    "logo": "https://neodb.versi-tech.com/logo.png"
-  },
-  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
@@ -334,9 +256,60 @@
     "category": ""
   },
   {
+    "domain": "garage.o00o.lol",
+    "version": "",
+    "title": "O00o Garage",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "log.melonbread.xyz",
+    "version": "",
+    "title": "Melonbread Log",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
     "domain": "neodb.neo-cities.homes",
     "version": "",
     "title": "Neo-cities NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "neodb.versi-tech.com",
+    "version": "",
+    "title": "Versi-tech NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

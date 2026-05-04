@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.14.1.1-3ce2612-43b1767-20260429200921)",
+    "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 29070,
+    "total_users": 29089,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 749,
+    "total_users": 751,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",

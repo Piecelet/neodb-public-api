@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 155,
+    "total_users": 156,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -160,7 +160,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "标记、评论、分享你喜欢的书籍/电影/音乐/游戏/播客。",
     "languages": [
       "en"
     ],
@@ -174,15 +174,15 @@
     ],
     "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
     "blurhash": "",
-    "icon": "https://neodb.mastodon.work/favicon.ico",
+    "icon": "https://polg.cn/favicon.ico",
     "total_users": 5,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Mastodon NeoDB",
-    "logo": "https://neodb.mastodon.work/logo.png"
+    "title": "Polg",
+    "logo": "https://polg.cn/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",
@@ -209,33 +209,6 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
-  },
-  {
-    "domain": "neodb.nickfi.de",
-    "version": "4.0.4 (compatible; NeoDB 0.13.5-d8ba1f9-8fc7549-20260402055100)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "europe",
-    "display_region": "Europe",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://neodb.nickfi.de/media/config/2026/2/14/S_EXbxxPCno70Ra6GMY8JKlefHM.jpg",
-    "blurhash": "",
-    "icon": "https://neodb.nickfi.de/icon.png",
-    "total_users": 3,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Nickfi NeoDB",
-    "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
     "domain": "watch.socialyeti.club",
@@ -337,6 +310,23 @@
     "domain": "neodb.neo-cities.homes",
     "version": "",
     "title": "Neo-cities NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "neodb.nickfi.de",
+    "version": "",
+    "title": "Nickfi NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

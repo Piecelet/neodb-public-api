@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 29203,
+    "total_users": 29226,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-3ce2612-135725d-20260503015453)",
+    "version": "4.0.4 (compatible; NeoDB main-b3ccd0b-9811add-20260510031334)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 757,
+    "total_users": 758,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -133,8 +133,8 @@
   },
   {
     "domain": "fantastika.social",
-    "version": "neodb/0.12.4-cccec03-33b2e53-20251020200914",
-    "description": "DESC TEXT",
+    "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
+    "description": "Comunidad hispanohablante de NeoDB. Libros, cine, música, juegos y podcasts.",
     "languages": [
       "en"
     ],
@@ -212,7 +212,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "标记、评论、分享你喜欢的书籍/电影/音乐/游戏/播客。",
     "languages": [
       "en"
     ],
@@ -372,6 +372,23 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "neodb.mastodon.work",
+    "version": "",
+    "title": "Mastodon NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

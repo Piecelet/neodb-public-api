@@ -1,5 +1,31 @@
 [
   {
+    "domain": "reviewdb.app",
+    "version": "4.0.4 (compatible; NeoDB 0.14.1.1-3ce2612-43b1767-20260429200921)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
+    "total_users": 156,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
+  },
+  {
     "domain": "minreol.dk",
     "version": "neodb/dev",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -80,6 +106,32 @@
     "logo": "https://media.fantastika.social/config/2025/9/4/BYbjFYepqWR5Ie0x9uUU89lUUXA.png"
   },
   {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 11,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
+  },
+  {
     "domain": "lib.itinerariummentis.org",
     "version": "neodb/dev-unknown",
     "description": "Itinerarium in Librarium Mentis",
@@ -108,7 +160,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
     "languages": [
       "en"
     ],
@@ -282,9 +334,9 @@
     "category": ""
   },
   {
-    "domain": "garage.o00o.lol",
+    "domain": "neodb.mastodon.work",
     "version": "",
-    "title": "O00o Garage",
+    "title": "Mastodon NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],
@@ -319,23 +371,6 @@
     "domain": "neodb.versi-tech.com",
     "version": "",
     "title": "Versi-tech NeoDB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "reviewdb.app",
-    "version": "",
-    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

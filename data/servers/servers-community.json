@@ -2,7 +2,7 @@
   {
     "domain": "reviewdb.app",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.1-3ce2612-43b1767-20260429200921)",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],

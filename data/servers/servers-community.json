@@ -1,31 +1,5 @@
 [
   {
-    "domain": "reviewdb.app",
-    "version": "4.0.4 (compatible; NeoDB 0.14.1.1-3ce2612-43b1767-20260429200921)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
-    "total_users": 156,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
-  },
-  {
     "domain": "minreol.dk",
     "version": "neodb/dev",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -82,7 +56,7 @@
   {
     "domain": "fantastika.social",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "Comunidad hispanohablante de NeoDB. Libros, cine, música, juegos y podcasts.",
+    "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
     "languages": [
       "en"
     ],
@@ -96,7 +70,7 @@
     "proxied_thumbnail": "https://media.fantastika.social/config/2025/2/28/Z1Usn6g0S5l8jtgucRqrmQ9Qw8U.png",
     "blurhash": "",
     "icon": "https://fantastika.social/s/img/icon.png",
-    "total_users": 38,
+    "total_users": 39,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -238,6 +212,32 @@
     "logo": "https://neodb.nickfi.de/logo.png"
   },
   {
+    "domain": "watch.socialyeti.club",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Socialyeti Watch",
+    "logo": "https://watch.socialyeti.club/yeti-watch.png"
+  },
+  {
     "domain": "film.upstairs.cn",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -266,7 +266,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.14.2-76a4667-8312ed4-20260513035917)",
+    "version": "4.0.4 (compatible; NeoDB 0.14.2.1-76a4667-05603b8-20260513134514)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -359,9 +359,9 @@
     "category": ""
   },
   {
-    "domain": "watch.socialyeti.club",
+    "domain": "reviewdb.app",
     "version": "",
-    "title": "Socialyeti Watch",
+    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],
@@ -369,12 +369,11 @@
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
     "category": "",
-    "logo": "https://watch.socialyeti.club/yeti-watch.png"
+    "logo": "https://reviewdb.app/logo.png"
   }
 ]

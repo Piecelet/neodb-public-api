@@ -1,5 +1,31 @@
 [
   {
+    "domain": "reviewdb.app",
+    "version": "4.0.4 (compatible; NeoDB 0.14.1.1-3ce2612-43b1767-20260429200921)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
+    "total_users": 156,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
+  },
+  {
     "domain": "minreol.dk",
     "version": "neodb/dev",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -56,7 +82,7 @@
   {
     "domain": "fantastika.social",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -134,7 +160,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -357,23 +383,5 @@
     "approval_required": false,
     "language": "",
     "category": ""
-  },
-  {
-    "domain": "reviewdb.app",
-    "version": "",
-    "title": "ReviewDB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": "",
-    "logo": "https://reviewdb.app/logo.png"
   }
 ]

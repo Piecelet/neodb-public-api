@@ -160,7 +160,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "",
+    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
     "languages": [
       "en"
     ],
@@ -266,7 +266,7 @@
   {
     "domain": "film.upstairs.cn",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -292,7 +292,7 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.14.2.1-76a4667-05603b8-20260513134514)",
+    "version": "4.0.4 (compatible; NeoDB 0.14.3-709e3cb-50d37a7-20260515191210)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

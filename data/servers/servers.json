@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 29508,
+    "total_users": 29530,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-88d8786-e813430-20260518150453)",
+    "version": "4.0.4 (compatible; NeoDB main-88d8786-8cd1769-20260520040444)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 767,
+    "total_users": 768,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -212,7 +212,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "",
+    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
     "languages": [
       "en"
     ],
@@ -226,6 +226,7 @@
     ],
     "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
     "blurhash": "",
+    "icon": "https://polg.cn/favicon.ico",
     "total_users": 5,
     "last_week_users": 0,
     "approval_required": false,

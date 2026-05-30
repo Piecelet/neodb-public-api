@@ -282,20 +282,29 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "",
-    "title": "Melonbread Log",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
+    "version": "4.0.4 (compatible; NeoDB 0.15-a6bf3f2-20260524192756)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
     "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://log.melonbread.xyz/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
+    "icon": "https://log.melonbread.xyz/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "",
-    "category": ""
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Melonbread Log",
+    "logo": "https://log.melonbread.xyz/logo.png"
   },
   {
     "domain": "neodb.mastodon.work",

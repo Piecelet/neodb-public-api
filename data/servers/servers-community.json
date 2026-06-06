@@ -185,6 +185,32 @@
     "logo": "https://polg.cn/logo.png"
   },
   {
+    "domain": "crititeca.illustietor.com",
+    "version": "4.0.4 (compatible; NeoDB 0.15.2.1-46e1730-20260603064029)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://crititeca.illustietor.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://crititeca.illustietor.com/s/img/icon.png",
+    "total_users": 4,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Illustietor Crititeca",
+    "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
+  },
+  {
     "domain": "watch.socialyeti.club",
     "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -236,23 +262,6 @@
     "category": "general",
     "title": "Upstairs Film",
     "logo": "https://film.upstairs.cn/logo.png"
-  },
-  {
-    "domain": "crititeca.illustietor.com",
-    "version": "",
-    "title": "Illustietor Crititeca",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
   },
   {
     "domain": "db.casually.cat",

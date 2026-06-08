@@ -70,7 +70,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 49,
+    "total_users": 50,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -256,29 +256,20 @@
   },
   {
     "domain": "log.melonbread.xyz",
-    "version": "4.0.4 (compatible; NeoDB 0.15.2.1-46e1730-20260603064029)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
+    "version": "",
+    "title": "Melonbread Log",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
     "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://log.melonbread.xyz/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "icon": "https://log.melonbread.xyz/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Melonbread Log",
-    "logo": "https://log.melonbread.xyz/logo.png"
+    "language": "",
+    "category": ""
   },
   {
     "domain": "neodb.mastodon.work",
@@ -352,7 +343,7 @@
     "domain": "watch.socialyeti.club",
     "version": "",
     "title": "Socialyeti Watch",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [],
     "display_languages": [],
     "region": "",

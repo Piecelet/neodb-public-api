@@ -44,7 +44,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 50,
+    "total_users": 51,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -160,7 +160,7 @@
   },
   {
     "domain": "crititeca.illustietor.com",
-    "version": "4.0.4 (compatible; NeoDB 0.15.2.1-46e1730-20260603064029)",
+    "version": "4.0.4 (compatible; NeoDB 0.16-cf66fc6-20260612202423)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -174,7 +174,7 @@
     ],
     "proxied_thumbnail": "https://crititeca.illustietor.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "icon": "https://crititeca.illustietor.com/s/img/icon.png",
+    "icon": "https://crititeca.illustietor.com/icon.png",
     "total_users": 4,
     "last_week_users": 0,
     "approval_required": false,
@@ -182,7 +182,7 @@
     "display_language": "English",
     "category": "general",
     "title": "Illustietor Crititeca",
-    "logo": "https://crititeca.illustietor.com/s/img/logo.svg"
+    "logo": "https://crititeca.illustietor.com/logo.png"
   },
   {
     "domain": "watch.socialyeti.club",

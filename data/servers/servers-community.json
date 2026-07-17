@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 165,
+    "total_users": 167,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -81,7 +81,7 @@
   },
   {
     "domain": "fantastika.social",
-    "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
+    "version": "4.0.4 (compatible; NeoDB 0.16.4.1-9173cb7-20260715193854)",
     "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
     "languages": [
       "en"
@@ -103,7 +103,7 @@
     "display_language": "English",
     "category": "general",
     "title": "Fantastika",
-    "logo": "https://fantastika.social/s/img/logo.svg"
+    "logo": "https://fantastika.social/logo.png"
   },
   {
     "domain": "garage.o00o.lol",

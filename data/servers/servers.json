@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.16.4.1-9173cb7-20260715193854)",
+    "version": "4.0.4 (compatible; NeoDB 0.16.5-3a4faad-20260716193842)",
     "description": "一个自由、开放、互联的书籍、电影、音乐和游戏收藏评论交流社区",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 33556,
+    "total_users": 33704,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-9173cb7-20260715052532)",
+    "version": "4.0.4 (compatible; NeoDB main-0e345de-20260717024821)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 859,
+    "total_users": 861,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -68,7 +68,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 165,
+    "total_users": 167,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -133,7 +133,7 @@
   },
   {
     "domain": "fantastika.social",
-    "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
+    "version": "4.0.4 (compatible; NeoDB 0.16.4.1-9173cb7-20260715193854)",
     "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
     "languages": [
       "en"
@@ -155,7 +155,7 @@
     "display_language": "English",
     "category": "general",
     "title": "Fantastika",
-    "logo": "https://fantastika.social/s/img/logo.svg"
+    "logo": "https://fantastika.social/logo.png"
   },
   {
     "domain": "garage.o00o.lol",

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 33837,
+    "total_users": 33989,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-0e345de-20260717024821)",
+    "version": "4.0.4 (compatible; NeoDB main-d4c5d89-20260719005419)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -68,7 +68,7 @@
     "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://reviewdb.app/icon.png",
-    "total_users": 168,
+    "total_users": 169,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -200,7 +200,7 @@
     "proxied_thumbnail": "https://lib.itinerariummentis.org/media/config/2025/3/12/bONLPUrBzHytTZk1i3Poaw7xKQk.png",
     "blurhash": "",
     "icon": "https://lib.itinerariummentis.org/icon.png",
-    "total_users": 10,
+    "total_users": 11,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",

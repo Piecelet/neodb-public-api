@@ -1,31 +1,5 @@
 [
   {
-    "domain": "reviewdb.app",
-    "version": "4.0.4 (compatible; NeoDB 0.16.2-9a195e4-20260615193459)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
-    "total_users": 169,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
-  },
-  {
     "domain": "minreol.dk",
     "version": "neodb/dev",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -43,7 +17,7 @@
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://minreol.dk/icon.png",
-    "total_users": 129,
+    "total_users": 130,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -352,6 +326,23 @@
     "domain": "neodb.versi-tech.com",
     "version": "",
     "title": "Versi-tech NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "",
+    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 34129,
+    "total_users": 34163,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 868,
+    "total_users": 869,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -50,32 +50,6 @@
     "category": "general",
     "title": "Eggplant",
     "logo": "https://eggplant.place/logo2.png"
-  },
-  {
-    "domain": "reviewdb.app",
-    "version": "4.0.4 (compatible; NeoDB 0.16.2-9a195e4-20260615193459)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
-    "total_users": 169,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -95,7 +69,7 @@
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://minreol.dk/icon.png",
-    "total_users": 129,
+    "total_users": 130,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -404,6 +378,23 @@
     "domain": "neodb.versi-tech.com",
     "version": "",
     "title": "Versi-tech NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "",
+    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

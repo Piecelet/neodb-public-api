@@ -44,7 +44,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 55,
+    "total_users": 56,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -82,7 +82,7 @@
   {
     "domain": "garage.o00o.lol",
     "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -134,7 +134,7 @@
   {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -183,6 +183,32 @@
     "category": "general",
     "title": "Illustietor Crititeca",
     "logo": "https://crititeca.illustietor.com/logo.png"
+  },
+  {
+    "domain": "watch.socialyeti.club",
+    "version": "neodb/0.12.8-cccec03-5d1d336-20260112133518",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://watch.socialyeti.club/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://watch.socialyeti.club/yeti-watch-icon.png",
+    "total_users": 3,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Socialyeti Watch",
+    "logo": "https://watch.socialyeti.club/yeti-watch.png"
   },
   {
     "domain": "film.upstairs.cn",
@@ -317,23 +343,6 @@
     "domain": "reviewdb.app",
     "version": "",
     "title": "ReviewDB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "watch.socialyeti.club",
-    "version": "",
-    "title": "Socialyeti Watch",
     "description": "",
     "languages": [],
     "display_languages": [],

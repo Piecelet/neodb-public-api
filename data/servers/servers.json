@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 34603,
+    "total_users": 34648,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/media/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 878,
+    "total_users": 879,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -160,7 +160,7 @@
   {
     "domain": "garage.o00o.lol",
     "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "description": "",
     "languages": [
       "en"
     ],
@@ -173,15 +173,13 @@
     ],
     "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
     "blurhash": "",
-    "icon": "https://garage.o00o.lol/icon.png",
     "total_users": 11,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "O00o Garage",
-    "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
+    "title": "O00o Garage"
   },
   {
     "domain": "lib.itinerariummentis.org",

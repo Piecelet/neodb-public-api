@@ -43,7 +43,7 @@
     "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://minreol.dk/icon.png",
-    "total_users": 131,
+    "total_users": 132,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -213,7 +213,7 @@
   {
     "domain": "film.upstairs.cn",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],

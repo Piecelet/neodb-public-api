@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.17.5-260d21b-20260808204851)",
+    "version": "4.0.4 (compatible; NeoDB 0.17.6-732be62-20260809214849)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 34953,
+    "total_users": 35020,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-260d21b-20260808204017)",
+    "version": "4.0.4 (compatible; NeoDB main-732be62-20260809205455)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -184,6 +184,32 @@
     "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 11,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
+  },
+  {
     "domain": "polg.cn",
     "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
     "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
@@ -293,23 +319,6 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "garage.o00o.lol",
-    "version": "",
-    "title": "O00o Garage",
     "description": "",
     "languages": [],
     "display_languages": [],

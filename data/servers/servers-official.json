@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.17.6-732be62-20260809214849)",
+    "version": "4.0.4 (compatible; NeoDB 0.17.7.1-2cae64a-20260816012110)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2024/1/15/ee3zCNw6BrMp2DW3nH8b4fEO_m4.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 35334,
+    "total_users": 35397,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-aa425b4-20260814013158)",
+    "version": "4.0.4 (compatible; NeoDB main-2cae64a-20260816012450)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"

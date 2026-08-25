@@ -17,7 +17,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 58,
+    "total_users": 59,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -69,7 +69,7 @@
     "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
     "blurhash": "",
     "icon": "https://garage.o00o.lol/icon.png",
-    "total_users": 11,
+    "total_users": 12,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -132,36 +132,26 @@
     "logo": "https://crititeca.illustietor.com/logo.png"
   },
   {
-    "domain": "film.upstairs.cn",
-    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "asia",
-    "display_region": "Asia",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
-    "blurhash": "",
-    "icon": "https://film.upstairs.cn/favicon.ico",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Upstairs Film",
-    "logo": "https://film.upstairs.cn/logo.png"
-  },
-  {
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "film.upstairs.cn",
+    "version": "",
+    "title": "Upstairs Film",
     "description": "",
     "languages": [],
     "display_languages": [],

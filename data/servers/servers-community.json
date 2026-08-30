@@ -1,31 +1,5 @@
 [
   {
-    "domain": "reviewdb.app",
-    "version": "4.0.4 (compatible; NeoDB 0.17.8-e428296-20260823205454)",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
-    "blurhash": "",
-    "icon": "https://reviewdb.app/icon.png",
-    "total_users": 169,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "ReviewDB",
-    "logo": "https://reviewdb.app/logo.png"
-  },
-  {
     "domain": "neodb.kevga.de",
     "version": "4.0.4 (compatible; NeoDB 0.17.6-732be62-20260809214849)",
     "description": "Reviews about book, film, music, podcast and game.",
@@ -103,33 +77,6 @@
     "category": "general",
     "title": "O00o Garage",
     "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
-  },
-  {
-    "domain": "polg.cn",
-    "version": "4.0.4 (compatible; NeoDB 0.14.1.2-3ce2612-135725d-20260503020832)",
-    "description": "专注书籍、电影、音乐收藏与评论的联邦宇宙社区",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "asia",
-    "display_region": "Asia",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://i.polg.cn/config/2026/4/10/D-D7pmHPvd_OzP5LNoX2x3LtpKU.webp",
-    "blurhash": "",
-    "icon": "https://polg.cn/favicon.ico",
-    "total_users": 11,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Polg",
-    "logo": "https://polg.cn/logo.png"
   },
   {
     "domain": "crititeca.illustietor.com",
@@ -309,6 +256,40 @@
     "domain": "neodb.versi-tech.com",
     "version": "",
     "title": "Versi-tech NeoDB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "polg.cn",
+    "version": "",
+    "title": "Polg",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "",
+    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

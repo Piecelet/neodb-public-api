@@ -80,8 +80,8 @@
   },
   {
     "domain": "crititeca.illustietor.com",
-    "version": "4.0.4 (compatible; NeoDB 0.16-cf66fc6-20260612202423)",
-    "description": "Reviews about book, film, music, podcast and game.",
+    "version": "4.0.4 (compatible; NeoDB 0.18.1-d79b305-20260906195616)",
+    "description": "Una plataforma para llevar un seguimiento y reseñar libros, series, películas, música, podcast y juegos.",
     "languages": [
       "en"
     ],
@@ -94,7 +94,7 @@
     ],
     "proxied_thumbnail": "https://crititeca.illustietor.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
-    "icon": "https://crititeca.illustietor.com/icon.png",
+    "icon": "https://crititeca.illustietor.com/icon.svg",
     "total_users": 4,
     "last_week_users": 0,
     "approval_required": false,
@@ -102,7 +102,7 @@
     "display_language": "English",
     "category": "general",
     "title": "Illustietor Crititeca",
-    "logo": "https://crititeca.illustietor.com/logo.png"
+    "logo": "https://crititeca.illustietor.com/icon.png"
   },
   {
     "domain": "film.upstairs.cn",

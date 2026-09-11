@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36099,
+    "total_users": 36104,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -50,6 +50,33 @@
     "category": "general",
     "title": "Eggplant",
     "logo": "https://eggplant.place/logo2.png"
+  },
+  {
+    "domain": "minreol.dk",
+    "version": "4.0.4 (compatible; NeoDB dev-unknown)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "europe",
+    "display_region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://minreol.dk/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://minreol.dk/icon.png",
+    "total_users": 137,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Minreol",
+    "logo": "https://minreol.dk/logo.png"
   },
   {
     "domain": "neodb.kevga.de",
@@ -223,23 +250,6 @@
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "minreol.dk",
-    "version": "",
-    "title": "Minreol",
     "description": "",
     "languages": [],
     "display_languages": [],

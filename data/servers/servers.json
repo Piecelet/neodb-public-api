@@ -1,7 +1,7 @@
 [
   {
     "domain": "neodb.social",
-    "version": "4.0.4 (compatible; NeoDB 0.18.2-447cb2a-20260907195302)",
+    "version": "4.0.4 (compatible; NeoDB 0.18.3-23b09f1-20260912190008)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/media/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36108,
+    "total_users": 36116,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-b9d4fcc-20260912031928)",
+    "version": "4.0.4 (compatible; NeoDB main-23b09f1-20260912183241)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -132,6 +132,32 @@
     "logo": "https://fantastika.social/logo.png"
   },
   {
+    "domain": "garage.o00o.lol",
+    "version": "neodb/0.12.7.1-cccec03-97a82d1-20251229183537",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://garage.o00o.lol/media/config/2026/1/19/Pcp59J9AraXpWEeykVPJ2ADzVk8.jpg",
+    "blurhash": "",
+    "icon": "https://garage.o00o.lol/icon.png",
+    "total_users": 12,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "O00o Garage",
+    "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
+  },
+  {
     "domain": "crititeca.illustietor.com",
     "version": "4.0.4 (compatible; NeoDB 0.18.1-d79b305-20260906195616)",
     "description": "Una plataforma para llevar un seguimiento y reseñar libros, series, películas, música, podcast y juegos.",
@@ -188,23 +214,6 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "garage.o00o.lol",
-    "version": "",
-    "title": "O00o Garage",
     "description": "",
     "languages": [],
     "display_languages": [],

@@ -106,35 +106,36 @@
     "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
   },
   {
-    "domain": "crititeca.illustietor.com",
-    "version": "4.0.4 (compatible; NeoDB 0.18.1-d79b305-20260906195616)",
-    "description": "Una plataforma para llevar un seguimiento y reseñar libros, series, películas, música, podcast y juegos.",
+    "domain": "film.upstairs.cn",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "",
     "languages": [
       "en"
     ],
     "display_languages": [
       "English"
     ],
-    "region": "",
+    "region": "asia",
+    "display_region": "Asia",
     "categories": [
       "general"
     ],
-    "proxied_thumbnail": "https://crititeca.illustietor.com/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
     "blurhash": "",
-    "icon": "https://crititeca.illustietor.com/icon.svg",
-    "total_users": 4,
+    "icon": "https://film.upstairs.cn/favicon.ico",
+    "total_users": 1,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
     "display_language": "English",
     "category": "general",
-    "title": "Illustietor Crititeca",
-    "logo": "https://crititeca.illustietor.com/icon.png"
+    "title": "Upstairs Film",
+    "logo": "https://film.upstairs.cn/logo.png"
   },
   {
-    "domain": "db.casually.cat",
+    "domain": "crititeca.illustietor.com",
     "version": "",
-    "title": "Casually DB",
+    "title": "Illustietor Crititeca",
     "description": "",
     "languages": [],
     "display_languages": [],
@@ -149,9 +150,9 @@
     "category": ""
   },
   {
-    "domain": "film.upstairs.cn",
+    "domain": "db.casually.cat",
     "version": "",
-    "title": "Upstairs Film",
+    "title": "Casually DB",
     "description": "",
     "languages": [],
     "display_languages": [],

@@ -55,7 +55,7 @@
   },
   {
     "domain": "fantastika.social",
-    "version": "4.0.4 (compatible; NeoDB 0.16.4.1-9173cb7-20260715193854)",
+    "version": "4.0.4 (compatible; NeoDB 0.19.6.3-467b5ce-20261004222308)",
     "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
     "languages": [
       "en"
@@ -108,7 +108,7 @@
   {
     "domain": "film.upstairs.cn",
     "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "",
+    "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
     ],
@@ -122,6 +122,7 @@
     ],
     "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
     "blurhash": "",
+    "icon": "https://film.upstairs.cn/favicon.ico",
     "total_users": 1,
     "last_week_users": 0,
     "approval_required": false,

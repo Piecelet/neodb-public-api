@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36813,
+    "total_users": 36832,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -96,7 +96,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 63,
+    "total_users": 64,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -104,32 +104,6 @@
     "category": "general",
     "title": "Kevga NeoDB",
     "logo": "https://neodb.kevga.de/logo.png"
-  },
-  {
-    "domain": "fantastika.social",
-    "version": "4.0.4 (compatible; NeoDB 0.19.6.3-467b5ce-20261004222308)",
-    "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://media.fantastika.social/config/2025/2/28/Z1Usn6g0S5l8jtgucRqrmQ9Qw8U.png",
-    "blurhash": "",
-    "icon": "https://fantastika.social/s/img/icon.png",
-    "total_users": 46,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Fantastika",
-    "logo": "https://fantastika.social/logo.png"
   },
   {
     "domain": "garage.o00o.lol",
@@ -205,6 +179,23 @@
     "domain": "db.casually.cat",
     "version": "",
     "title": "Casually DB",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": ""
+  },
+  {
+    "domain": "fantastika.social",
+    "version": "",
+    "title": "Fantastika",
     "description": "",
     "languages": [],
     "display_languages": [],

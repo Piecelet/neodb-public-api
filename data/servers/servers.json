@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36846,
+    "total_users": 36857,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -158,6 +158,33 @@
     "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
   },
   {
+    "domain": "film.upstairs.cn",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "asia",
+    "display_region": "Asia",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
+    "blurhash": "",
+    "icon": "https://film.upstairs.cn/favicon.ico",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Upstairs Film",
+    "logo": "https://film.upstairs.cn/logo.png"
+  },
+  {
     "domain": "crititeca.illustietor.com",
     "version": "",
     "title": "Illustietor Crititeca",
@@ -190,25 +217,6 @@
     "approval_required": false,
     "language": "",
     "category": ""
-  },
-  {
-    "domain": "film.upstairs.cn",
-    "version": "",
-    "title": "Upstairs Film",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "icon": "https://film.upstairs.cn/favicon.ico",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": "",
-    "logo": "https://film.upstairs.cn/logo.png"
   },
   {
     "domain": "lib.itinerariummentis.org",

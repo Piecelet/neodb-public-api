@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36900,
+    "total_users": 36917,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-a945c3f-20261012191900)",
+    "version": "4.0.4 (compatible; NeoDB main-5a6fd10-20261016040234)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/m/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 924,
+    "total_users": 925,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -77,6 +77,33 @@
     "category": "general",
     "title": "Minreol",
     "logo": "https://minreol.dk/logo.png"
+  },
+  {
+    "domain": "neodb.kevga.de",
+    "version": "4.0.4 (compatible; NeoDB 0.17.6-732be62-20260809214849)",
+    "description": "Reviews über Bücher, Filme, Musik, Podcasts und Spiele, alles im Fediverse!",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "europe",
+    "display_region": "Europe",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://neodb.kevga.de/icon.png",
+    "total_users": 65,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Kevga NeoDB",
+    "logo": "https://neodb.kevga.de/logo.png"
   },
   {
     "domain": "fantastika.social",
@@ -214,23 +241,6 @@
     "domain": "log.melonbread.xyz",
     "version": "",
     "title": "Melonbread Log",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "neodb.kevga.de",
-    "version": "",
-    "title": "Kevga NeoDB",
     "description": "",
     "languages": [],
     "display_languages": [],

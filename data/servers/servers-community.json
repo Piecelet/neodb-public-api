@@ -170,20 +170,18 @@
     "domain": "lib.itinerariummentis.org",
     "version": "",
     "title": "Itinerariummentis Lib",
-    "description": "Itinerarium in Librarium Mentis",
+    "description": "",
     "languages": [],
     "display_languages": [],
     "region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
-    "icon": "https://lib.itinerariummentis.org/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "category": "",
-    "logo": "https://lib.itinerariummentis.org/logo.png"
+    "category": ""
   },
   {
     "domain": "log.melonbread.xyz",

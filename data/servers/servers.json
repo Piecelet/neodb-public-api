@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 36959,
+    "total_users": 36974,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-5a6fd10-20261016040234)",
+    "version": "4.0.4 (compatible; NeoDB main-7c83497-20261020025919)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -96,7 +96,7 @@
     "proxied_thumbnail": "https://neodb.kevga.de/static/img/fjords-banner-600.fa337a5055b6.jpg",
     "blurhash": "",
     "icon": "https://neodb.kevga.de/icon.png",
-    "total_users": 65,
+    "total_users": 66,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -222,18 +222,20 @@
     "domain": "lib.itinerariummentis.org",
     "version": "",
     "title": "Itinerariummentis Lib",
-    "description": "",
+    "description": "Itinerarium in Librarium Mentis",
     "languages": [],
     "display_languages": [],
     "region": "",
     "categories": [],
     "proxied_thumbnail": "https://neodb.internal/placeholder",
     "blurhash": "",
+    "icon": "https://lib.itinerariummentis.org/icon.png",
     "total_users": 0,
     "last_week_users": 0,
     "approval_required": false,
     "language": "",
-    "category": ""
+    "category": "",
+    "logo": "https://lib.itinerariummentis.org/logo.png"
   },
   {
     "domain": "log.melonbread.xyz",

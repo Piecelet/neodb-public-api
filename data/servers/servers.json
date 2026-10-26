@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 37039,
+    "total_users": 37058,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-7ab43a5-20261025031609)",
+    "version": "4.0.4 (compatible; NeoDB main-6dddb29-20261026025414)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -42,7 +42,7 @@
     "proxied_thumbnail": "https://eggplant.place/m/config/2024/1/15/zSi9h6bAWx05WG0QFjRglP47HCs.webp",
     "blurhash": "",
     "icon": "https://eggplant.place/logo2.png",
-    "total_users": 933,
+    "total_users": 935,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -122,7 +122,7 @@
     "proxied_thumbnail": "https://media.fantastika.social/config/2025/2/28/Z1Usn6g0S5l8jtgucRqrmQ9Qw8U.png",
     "blurhash": "",
     "icon": "https://fantastika.social/s/img/icon.png",
-    "total_users": 46,
+    "total_users": 47,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -158,33 +158,6 @@
     "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
   },
   {
-    "domain": "film.upstairs.cn",
-    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
-    "description": "Reviews about book, film, music, podcast and game.",
-    "languages": [
-      "en"
-    ],
-    "display_languages": [
-      "English"
-    ],
-    "region": "asia",
-    "display_region": "Asia",
-    "categories": [
-      "general"
-    ],
-    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
-    "blurhash": "",
-    "icon": "https://film.upstairs.cn/favicon.ico",
-    "total_users": 1,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "en",
-    "display_language": "English",
-    "category": "general",
-    "title": "Upstairs Film",
-    "logo": "https://film.upstairs.cn/logo.png"
-  },
-  {
     "domain": "crititeca.illustietor.com",
     "version": "",
     "title": "Illustietor Crititeca",
@@ -217,6 +190,25 @@
     "approval_required": false,
     "language": "",
     "category": ""
+  },
+  {
+    "domain": "film.upstairs.cn",
+    "version": "",
+    "title": "Upstairs Film",
+    "description": "",
+    "languages": [],
+    "display_languages": [],
+    "region": "",
+    "categories": [],
+    "proxied_thumbnail": "https://neodb.internal/placeholder",
+    "blurhash": "",
+    "icon": "https://film.upstairs.cn/favicon.ico",
+    "total_users": 0,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "",
+    "category": "",
+    "logo": "https://film.upstairs.cn/logo.png"
   },
   {
     "domain": "lib.itinerariummentis.org",

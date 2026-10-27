@@ -16,7 +16,7 @@
     "proxied_thumbnail": "https://neodb.social/m/config/2026/9/4/kOP4N3AMFC4hJn_UCH5ObHKsiTk.png",
     "blurhash": "",
     "icon": "https://neodb.social/s/img/icon.png",
-    "total_users": 37058,
+    "total_users": 37074,
     "last_week_users": 0,
     "approval_required": false,
     "language": "en",
@@ -27,7 +27,7 @@
   },
   {
     "domain": "eggplant.place",
-    "version": "4.0.4 (compatible; NeoDB main-6dddb29-20261026025414)",
+    "version": "4.0.4 (compatible; NeoDB main-e7020d2-20261026162406)",
     "description": "Reviews about book, film, music, podcast and game.",
     "languages": [
       "en"
@@ -50,6 +50,32 @@
     "category": "general",
     "title": "Eggplant",
     "logo": "https://eggplant.place/logo2.png"
+  },
+  {
+    "domain": "reviewdb.app",
+    "version": "4.0.4 (compatible; NeoDB 0.19.9.1-3cee210-20261022030916)",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://reviewdb.app/static/img/fjords-banner-600.fa337a5055b6.jpg",
+    "blurhash": "",
+    "icon": "https://reviewdb.app/icon.png",
+    "total_users": 170,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "ReviewDB",
+    "logo": "https://reviewdb.app/logo.png"
   },
   {
     "domain": "minreol.dk",
@@ -158,6 +184,33 @@
     "logo": "https://git.o00o.lol/admin/image-garage/raw/branch/main/logo.png"
   },
   {
+    "domain": "film.upstairs.cn",
+    "version": "neodb/0.12.9-cccec03-9fc8408-20260201190749",
+    "description": "Reviews about book, film, music, podcast and game.",
+    "languages": [
+      "en"
+    ],
+    "display_languages": [
+      "English"
+    ],
+    "region": "asia",
+    "display_region": "Asia",
+    "categories": [
+      "general"
+    ],
+    "proxied_thumbnail": "https://film.upstairs.cn/media/config/2026/3/22/nOzQtoRKx_uS38XtPZr_MebbzLw.jpeg",
+    "blurhash": "",
+    "icon": "https://film.upstairs.cn/favicon.ico",
+    "total_users": 1,
+    "last_week_users": 0,
+    "approval_required": false,
+    "language": "en",
+    "display_language": "English",
+    "category": "general",
+    "title": "Upstairs Film",
+    "logo": "https://film.upstairs.cn/logo.png"
+  },
+  {
     "domain": "crititeca.illustietor.com",
     "version": "",
     "title": "Illustietor Crititeca",
@@ -190,25 +243,6 @@
     "approval_required": false,
     "language": "",
     "category": ""
-  },
-  {
-    "domain": "film.upstairs.cn",
-    "version": "",
-    "title": "Upstairs Film",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "icon": "https://film.upstairs.cn/favicon.ico",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": "",
-    "logo": "https://film.upstairs.cn/logo.png"
   },
   {
     "domain": "lib.itinerariummentis.org",
@@ -318,23 +352,6 @@
     "domain": "polg.cn",
     "version": "",
     "title": "Polg",
-    "description": "",
-    "languages": [],
-    "display_languages": [],
-    "region": "",
-    "categories": [],
-    "proxied_thumbnail": "https://neodb.internal/placeholder",
-    "blurhash": "",
-    "total_users": 0,
-    "last_week_users": 0,
-    "approval_required": false,
-    "language": "",
-    "category": ""
-  },
-  {
-    "domain": "reviewdb.app",
-    "version": "",
-    "title": "ReviewDB",
     "description": "",
     "languages": [],
     "display_languages": [],

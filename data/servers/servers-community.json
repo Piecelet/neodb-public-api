@@ -53,7 +53,7 @@
   },
   {
     "domain": "fantastika.social",
-    "version": "4.0.4 (compatible; NeoDB 0.19.8-a945c3f-20261012191559)",
+    "version": "4.0.4 (compatible; NeoDB 0.20.2-ae8cb5f-20261111222934)",
     "description": "Comunidad hispanohablante de NeoDB para registrar, valorar y compartir libros, películas, música, juegos y podcasts.",
     "languages": [
       "en"
